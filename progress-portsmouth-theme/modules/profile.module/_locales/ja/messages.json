@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "プロファイル",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "このオプションをオンにすると、既定のテーマスタイルから変更できます。このオプションをオフにすると、モジュールの適用元が既定のテーマスタイルに戻ります。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "既定のスタイルよりも優先使用",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshuaは20年以上ハイテク産業に携わっています。人々の成長を手助けするという信念のもとに、2015年に当社の立ち上げに参加しました。時間があるときには子供たちと過ごしたり、ビーチを訪れたり、料理をしたりするのが趣味です。</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "プロフィール",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "プロファイル画像",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "プロファイル名",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "CEO、共同創業者",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "プロファイルの位置",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "背景色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "スタイルオプション",
+    "description" : "",
+    "placeholders" : null
+  }
+}

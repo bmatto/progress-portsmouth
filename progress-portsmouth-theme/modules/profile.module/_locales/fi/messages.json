@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Profiili",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Kun otat tämän vaihtoehdon käyttöön, voit korvata oletusarvoiset teemat. Kun vaihtoehto poistetaan käytöstä, moduuli palaa oletusarvoisiin teemoihin.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Korvaa oletustyyli",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshualla on yli 20 vuotta kokemusta teknologia-alasta. Hän oli mukana yrityksen perustamisessa vuonna 2015 tavoitteenaan auttaa ihmisiä kasvamaan. Vapaa-ajallaan hän viettää mielellään aikaa lastensa kanssa, käy rannalla ja laittaa ruokaa.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Profiilin biografia",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Profiilikuva",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Profiilin nimi",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "Toimitusjohtaja, perustajajäsen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Profiilin sijainti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Taustaväri",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Tallenna asetukset",
+    "description" : "",
+    "placeholders" : null
+  }
+}

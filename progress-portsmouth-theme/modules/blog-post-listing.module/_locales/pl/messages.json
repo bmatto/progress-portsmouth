@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Ostatnie artykuły",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Tekst nagłówka",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Lista wpisów na blogu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Włączenie tej opcji pozwoli na zastąpienie domyślnych stylów motywów. Wyłączenie tej opcji spowoduje ponowne połączenie modułu z domyślnymi stylami motywów.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Zastąp styl domyślny",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Wybierz blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Popularne wpisy",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Ostatnie wpisy",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Wybierz typ bloga",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Kolor tła",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Opcje stylu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Kolor tekstu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Wyświetl wszystko",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Wyświetl tekst wszystkich przycisków",
+    "description" : "",
+    "placeholders" : null
+  }
+}

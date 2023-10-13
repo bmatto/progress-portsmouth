@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Скорошни статии",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Текст на заглавие",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Списък на публикации в блог",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Разрешаването на тази опция ще ви позволи да презапишете стиловете на тема по подразбиране. Забраняването на тази опция ще свърже отново модула със стиловете на тема по подразбиране.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Презаписване на стила по подразбиране",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Избор на блог",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Популярни публикации",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Скорошни публикации",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Избор на тип блог",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Цвят на фон",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Опции за стил",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Цвят на текст",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Преглед на всички",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Преглед на целия текст на бутонa",
+    "description" : "",
+    "placeholders" : null
+  }
+}

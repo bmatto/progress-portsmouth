@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Aktuelle Artikel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Text für Überschrift",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Listing des Blog-Beitrags",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Wenn Sie diese Option aktivieren, können Sie die Standard-Designstile außer Kraft setzen. Durch Deaktivieren dieser Option wird das Modul wieder mit den Standard-Designstilen verknüpft.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Standardstil überschreiben",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Blog auswählen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Beliebte Beiträge",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Neue Beiträge",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Blog-Typ auswählen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Hintergrundfarbe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Stiloptionen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Textfarbe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Alle anzeigen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Text für „Alle anzeigen“-Button",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Автор",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Опис",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Вибране зображення",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Картка",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Перелік",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Стиль розмітки",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Переліки блогів",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Заголовок публікації",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Дата публікації",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Читати далі",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Додаткова інформація",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Текст додаткової інформації",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Теги",
+    "description" : "",
+    "placeholders" : null
+  }
+}

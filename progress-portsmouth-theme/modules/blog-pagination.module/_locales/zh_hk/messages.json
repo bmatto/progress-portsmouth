@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "網誌頁碼",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "下一頁",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "下一段文字",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "上一頁",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "上一段文字",
+    "description" : "",
+    "placeholders" : null
+  }
+}

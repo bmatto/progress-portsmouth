@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Σελιδοποίηση ιστολογίου",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Επόμενο",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Επόμενο κείμενο",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Προηγ.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Προηγούμενο κείμενο",
+    "description" : "",
+    "placeholders" : null
+  }
+}

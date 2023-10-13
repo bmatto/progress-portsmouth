@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Kun otat tämän toiminnon käyttöön, voit muokata alatunnistetta vetämällä ja pudottamalla kohteita.<br/><br/>Kun toiminto otetaan käyttöön, sisältö palautuu oletustilaan.<b>Jos haluat palauttaa aiemman sisällön, voit vain poistaa vetämisen ja pudotuksen käytöstä.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Ota vetäminen ja pudotus käyttöön",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Ota vetäminen ja pudotus käyttöön",
+    "description" : "",
+    "placeholders" : null
+  }
+}

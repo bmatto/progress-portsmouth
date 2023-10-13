@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Menyavsnitt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Primärt menyfält",
+    "description" : "",
+    "placeholders" : null
+  }
+}

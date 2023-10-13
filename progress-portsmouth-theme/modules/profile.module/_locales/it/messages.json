@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Profilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Abilitare questa opzione ti consentirà di sovrascrivere gli stili del tema predefiniti. Disabilitare questa opzione ricollegherà il modulo agli stili del tema predefiniti.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Sovrascrivi lo stile predefinito",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshua ha oltre 20 anni di esperienza nel settore della tecnologia. Ha contribuito ad avviare questa azienda nel 2015 con la missione di aiutare le persone a crescere. Nel tempo libero ama uscire con i suoi figli, andare in spiaggia e cucinare.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Bio profilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Immagine profilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Nome profilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "CEO, co-fondatore",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Posizione profilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Colore sfondo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Opzioni stile",
+    "description" : "",
+    "placeholders" : null
+  }
+}

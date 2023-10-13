@@ -1,0 +1,17 @@
+{
+  "all_articles_text.default" : {
+    "message" : "Kaikki artikkelit",
+    "description" : "",
+    "placeholders" : null
+  },
+  "all_articles_text.label" : {
+    "message" : "Kaikkien artikkelien teksti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blogin tunnistesuodatin",
+    "description" : "",
+    "placeholders" : null
+  }
+}

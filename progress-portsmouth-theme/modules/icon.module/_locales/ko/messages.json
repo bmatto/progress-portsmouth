@@ -1,0 +1,67 @@
+{
+  "accessibility.label" : {
+    "message" : "액세스 가능성 옵션",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.decorative" : {
+    "message" : "화면 판독기에서 무시함",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.semantic" : {
+    "message" : "화면 판독기로 읽기",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.label" : {
+    "message" : "목적",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.title.label" : {
+    "message" : "제목",
+    "description" : "",
+    "placeholders" : null
+  },
+  "icon_field.label" : {
+    "message" : "아이콘",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "아이콘",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "이 옵션을 활성화하면 기본 테마 스타일을 재정의할 수 있습니다. 이 옵션을 비활성화하면 모듈이 기본 테마 스타일에 다시 연결됩니다.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "기본 스타일 재정의",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.color.label" : {
+    "message" : "색상",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "스타일 옵션",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.help_text" : {
+    "message" : "값은 픽셀 단위입니다.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.label" : {
+    "message" : "크기",
+    "description" : "",
+    "placeholders" : null
+  }
+}

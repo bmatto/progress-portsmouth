@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Профиль",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Включение этого параметра позволит переопределять стили тем по умолчанию. Отключение этого параметра приведет к переподключению модуля к стилям тем по умолчанию.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Переопределить стиль по умолчанию",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Джошуа работает в отрасли высоких технологий уже более 20 лет. Он помог основать компанию в 2015 г. с целью способствовать росту других людей. В свободное время он любит заниматься со своими детьми, купаться и загорать на пляже, а также готовить.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Биографические данные профиля",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Изображение профиля",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Джошуа Бек",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Имя профиля",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "Исполнительный директор, соучредитель",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Положение профиля",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Цвет фона",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Параметры стиля",
+    "description" : "",
+    "placeholders" : null
+  }
+}

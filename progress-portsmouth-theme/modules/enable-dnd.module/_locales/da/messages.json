@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Aktivering af denne funktion gør det muligt for dig at redigere din sidefod med træk og slip.<br/><br/>Når den er aktiveret, nulstilles indholdet til standardtilstanden. <b>For at gendanne dit tidligere indhold, skal du bare deaktivere træk og slip.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Aktivér træk og slip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Aktivér træk og slip",
+    "description" : "",
+    "placeholders" : null
+  }
+}

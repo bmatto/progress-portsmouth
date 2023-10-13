@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "ترقيم الصفحات في المدونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "التالي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "النص التالي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "السابق",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "النص السابق",
+    "description" : "",
+    "placeholders" : null
+  }
+}

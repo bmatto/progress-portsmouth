@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Bahagian Menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Medan menu utama",
+    "description" : "",
+    "placeholders" : null
+  }
+}

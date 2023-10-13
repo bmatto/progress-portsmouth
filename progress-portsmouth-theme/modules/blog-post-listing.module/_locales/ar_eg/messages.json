@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "المقالات الحديثة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "نص العنوان",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "قائمة منشورات المدونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "يتيح لك تمكين هذا الخيار تجاوز أنماط السمات الافتراضية. وسيؤدي تعطيل هذا الخيار إلى إعادة توصيل الوحدة النمطية بأنماط السمة الافتراضية.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "تجاوز النمط الافتراضي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "تحديد مدونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "المنشورات الشائعة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "المنشورات الحديثة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "تحديد نوع المدونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "لون الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "خيارات النمط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "لون النص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "عرض الكل",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "نص زر عرض الكل",
+    "description" : "",
+    "placeholders" : null
+  }
+}

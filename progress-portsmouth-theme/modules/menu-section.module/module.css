@@ -1,0 +1,247 @@
+/* Menu Item Styles */
+
+.navigation-primary a {
+  color: #231f1f;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .navigation-primary {
+    padding-bottom: 30px;
+  }
+}
+
+/* Active Menu Item Styles */
+
+.navigation-primary a.active-item {
+  position: relative;
+}
+
+.navigation-primary .submenu.level-1 > li > a.active-item:after,
+.navigation-primary .submenu.level-1 > li > a.active-branch:after {
+  bottom: -3px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .navigation-primary .submenu.level-1 > li > a.active-item:after {
+    display: none;
+  }
+}
+
+/* Menu */
+
+.submenu {
+  float: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .submenu {
+    display: none;
+  }
+
+  input[type='checkbox']:checked ~ .submenu {
+    display: block;
+  }
+
+  .submenu > .has-submenu {
+    position: relative;
+  }
+
+  .submenu > li > a {
+    display: block;
+    width: 100%;
+  }
+
+  .submenu > .has-submenu > a {
+    width: 80%;
+  }
+}
+
+/* Top Level Menu */
+
+.submenu.level-1 {
+  display: inline-block;
+}
+
+.submenu.level-1 > li {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+}
+
+.submenu.level-1 > li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .submenu.level-1 > li {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .submenu.level-1 {
+    width: 100%;
+  }
+
+  .submenu.level-1 > li {
+    display: block;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .submenu.level-1 > li > a {
+    padding: 10px 30px;
+  }
+}
+
+/* Child Menus */
+
+.submenu.level-2 {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  left: -9999px;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  width: 220px;
+  z-index: 2;
+}
+
+.submenu.level-1 > li.has-submenu:hover .submenu.level-2,
+.submenu.level-1 > li.has-submenu.focus .submenu.level-2 {
+  left: -30px;
+  opacity: 1;
+}
+
+.submenu.level-1 > li.has-submenu:hover:last-child .submenu.level-2,
+.submenu.level-1 > li.has-submenu.focus:last-child .submenu.level-2 {
+  left: auto;
+  right: 0;
+}
+
+.submenu.level-2 .menu-item {
+  margin: 0;
+}
+
+.submenu.level-2 .menu-link {
+  display: block;
+  padding: 10px 30px;
+  transition: background-color 0.3s;
+}
+
+.submenu.level-2 .menu-link:hover,
+.submenu.level-2 .menu-link:focus {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+@media (max-width: 767px) {
+  .submenu.level-2 {
+    border: none;
+    opacity: 1;
+    position: static;
+    visibility: visible;
+    width: 100%;
+  }
+
+  .submenu.level-2 .menu-link {
+    padding: 10px 50px;
+    transition: none;
+  }
+
+  .submenu.level-2 .menu-link:hover {
+    background-color: inherit;
+  }
+
+  .submenu.level-2 .menu-link:hover,
+  .submenu.level-2 .menu-link:focus {
+    transition: none;
+  }
+}
+
+.submenu.level-3 .menu-link {
+  padding-left: 50px;
+}
+
+@media (max-width: 767px) {
+  .submenu.level-3 .menu-link {
+    padding: 10px 70px;
+  }
+}
+
+/* Mobile Navigation Toggles */
+
+.submenu-toggle,
+#nav-toggle,
+.header__navigation-toggle,
+.menu-child-toggle-icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__navigation-toggle,
+  .menu-child-toggle-icon {
+    cursor: pointer;
+    display: block;
+  }
+
+  #nav-toggle:checked ~ .header__navigation {
+    display: block;
+  }
+
+  .header__mobile-menu-open-icon {
+    display: block;
+  }
+
+  .header__mobile-menu-close-icon {
+    display: none;
+  }
+
+  /* prettier-ignore */
+  #nav-toggle:checked + .header__navigation-toggle .header__mobile-menu-open-icon {
+    display: none;
+  }
+
+  /* prettier-ignore */
+  #nav-toggle:checked + .header__navigation-toggle .header__mobile-menu-close-icon {
+    display: block;
+  }
+
+  .menu-arrow {
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+  }
+
+  input[type='checkbox']:checked ~ .menu-arrow svg {
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+    transition: transform 0.4s;
+  }
+}
+
+/* HubSpot Editor Styles */
+
+.hs-inline-edit .submenu.level-1 > li.has-submenu:hover .submenu.level-2,
+.hs-inline-edit > li.has-submenu.focus .submenu.level-2 {
+  visibility: hidden;
+}

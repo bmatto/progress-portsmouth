@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Pagination de blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Suivant",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Texte suivant",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Précédent",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Texte précédent",
+    "description" : "",
+    "placeholders" : null
+  }
+}

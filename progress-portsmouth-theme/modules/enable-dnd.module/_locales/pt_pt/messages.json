@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Ativar esta funcionalidade vai-lhe permitir editar o rodapé com a função arrastar e largar.<br/><br/>Depois de ativada, o conteúdo é reposto para o estado predefinido.<b>Para recuperar o conteúdo anterior, basta desativar a função arrastar e largar.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Ativar arrastar e largar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Ativar arrastar e largar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

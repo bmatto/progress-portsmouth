@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Penghalamanan Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Seterusnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Teks seterusnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Sebelumnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Teks sebelumnya",
+    "description" : "",
+    "placeholders" : null
+  }
+}

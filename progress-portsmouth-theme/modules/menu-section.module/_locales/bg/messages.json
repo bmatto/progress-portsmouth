@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Раздел на меню",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Поле на основно меню",
+    "description" : "",
+    "placeholders" : null
+  }
+}

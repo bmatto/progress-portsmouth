@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Artículos recientes",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Texto del encabezado",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Lista de publicaciones de blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Activar esta opción te permitirá anular los estilos de temas predeterminados. Al desactivar esta opción se volverá a conectar el módulo a los estilos de temas predeterminados.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Anular estilo predeterminado",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Seleccionar blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Publicaciones populares",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Posts recientes",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Seleccionar tipo de blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Color de fondo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Opciones de estilos",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Color del texto",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Ver todo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Texto del botón de ver todo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,147 @@
+/* Footer */
+
+/* Footer Container */
+
+.footer__container {
+  margin: 0 auto;
+  padding: 2.8rem 20px 1.4rem;
+}
+
+/* Footer Container Static */
+
+.footer--landing-page .footer__container--static {
+  text-align: center;
+}
+
+/* Footer Container DND */
+
+.footer .dnd-section {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Footer Rows */
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Row One */
+
+.footer__row--one {
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 60px;
+  max-width: 250px;
+}
+
+.footer .logo-company-name {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__logo {
+    margin-right: 0;
+    max-width: 200px;
+  }
+
+  .footer__logo,
+  .footer__follow-me {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.footer__navigation {
+  margin-right: auto;
+}
+
+.footer .hs-menu-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .hs-menu-wrapper li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .footer .hs-menu-wrapper li {
+    margin-right: 20px;
+  }
+}
+
+.footer .hs-menu-wrapper a {
+  letter-spacing: 0.38rem;
+}
+
+@media (max-width: 767px) {
+  .footer__row--one {
+    flex-wrap: wrap;
+  }
+
+  .footer__logo {
+    order: 1;
+  }
+
+  .footer__navigation {
+    order: 3;
+    width: 100%;
+  }
+
+  .footer .hs-menu-wrapper li {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .footer .hs-menu-wrapper li:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__follow-me {
+    margin-left: auto;
+    order: 2;
+  }
+}
+
+/* Footer Row Two */
+
+.footer__row--two {
+  flex-wrap: wrap;
+  margin: 85px 0;
+}
+
+.footer__contact {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.footer__contact > div {
+  display: inline-block;
+}
+
+.footer__contact .icon {
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .footer__row--two {
+    margin: 2.8rem 0;
+  }
+}
+
+/* Account for internet explorer */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer__contact > div:first-child {
+    float: left;
+  }
+
+  .footer__row .icon svg {
+    max-height: 1rem;
+  }
+}

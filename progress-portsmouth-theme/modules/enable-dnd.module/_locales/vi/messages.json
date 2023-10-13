@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Bằng cách bật tính năng này, bạn có thể sửa chân trang bằng thao tác kéo và thả.<br/><br/>Khi bật tính năng này, nội dung sẽ đặt lại về trạng thái mặc định. <b>Để khôi phục nội dung trước đó, bạn chỉ cần tắt tính năng kéo và thả.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Bật tính năng kéo và thả",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Bật tính năng kéo và thả",
+    "description" : "",
+    "placeholders" : null
+  }
+}

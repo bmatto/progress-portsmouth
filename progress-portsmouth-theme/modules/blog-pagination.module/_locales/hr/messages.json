@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Numeriranje stranica bloga",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Dalje",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Sljedeći tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Prethodno",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Prethodni tekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

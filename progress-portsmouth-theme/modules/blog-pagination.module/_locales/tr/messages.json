@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Blog sayfalandırma",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Sonraki",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Sonraki metin",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Önceki",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Önceki metin",
+    "description" : "",
+    "placeholders" : null
+  }
+}

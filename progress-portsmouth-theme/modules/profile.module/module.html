@@ -1,0 +1,27 @@
+<section class="profile" id="profile--{{ name }}">
+  {% if module.profile_image.src %}
+    {% set sizeAttrs = 'width="{{ module.profile_image.width }}" height="{{ module.profile_image.height }}"' %}
+    {% if module.profile_image.size_type == 'auto' %}
+      {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+    {% elif module.profile_image.size_type == 'auto_custom_max' %}
+      {% set sizeAttrs = 'width="{{ module.profile_image.max_width }}" height="{{ module.profile_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+    {% endif %}
+    {% set loadingAttr = module.profile_image.loading != 'disabled' ? 'loading="{{ module.profile_image.loading }}"' : '' %}
+    <img class="profile__image" src="{{ module.profile_image.src }}" alt="{{ module.profile_image.alt }}" {{ sizeAttrs }}  {{ loadingAttr }}>
+  {% endif %}
+  <div class="profile__description {% unless module.profile_image.src %}profile__description--no-image{% endunless %}">
+    <h3 class="profile__name">{{ module.profile_name }}</h3>
+    <p class="profile__position">{{ module.profile_position }}</p>
+    <div class="profile__bio">{{ module.profile_bio }}</div>
+  </div>
+</section>
+
+{% if module.override_default_style %}
+  {% require_css %}
+    <style>
+      #profile--{{ name }} .profile__description {
+        background-color: rgba({{ module.style.background_color.color|convert_rgb }},{{ module.style.background_color.opacity * 0.01 }});
+      }
+    </style>
+  {% end_require_css %}
+{% endif %}

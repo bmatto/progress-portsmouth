@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Če omogočite to funkcijo, lahko nogo urejate s Povleci in spusti. <br/><br/>Ko je omogočeno, se vsebina ponastavi na privzeto stanje. <b>Če želite obnoviti prejšnjo vsebino, preprosto onemogočite Povleci in spusti.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Omogoči funkcijo Povleci in spusti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Omogoči funkcijo Povleci in spusti",
+    "description" : "",
+    "placeholders" : null
+  }
+}

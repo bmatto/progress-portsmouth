@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Auteur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Description",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Image en vedette",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Carte",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Liste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Style de mise en page",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Listes de blogues",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Titre du billet",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Date de publication",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "En lire plus",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "En lire plus",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Lire plus de texte",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Balises",
+    "description" : "",
+    "placeholders" : null
+  }
+}

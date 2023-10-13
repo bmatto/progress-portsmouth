@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Ako omogućite ovu značajku moći ćete urediti podnožje funkcijom povlačenja i ispuštanja.<br/><br/>Kad se omogući, sadržaj će se ponovno postaviti u zadano stanje. <b>Da biste vratili prethodni sadržaj, jednostavno onemogućite povlačenje i ispuštanje.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Omogući povlačenje i ispuštanje",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Omogući povlačenje i ispuštanje",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Phân trang blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Tiếp theo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Văn bản tiếp theo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Trước",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Văn bản trước đó",
+    "description" : "",
+    "placeholders" : null
+  }
+}

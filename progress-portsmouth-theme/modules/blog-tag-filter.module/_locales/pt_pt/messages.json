@@ -1,0 +1,17 @@
+{
+  "all_articles_text.default" : {
+    "message" : "Todos os artigos",
+    "description" : "",
+    "placeholders" : null
+  },
+  "all_articles_text.label" : {
+    "message" : "Texto de todos os artigos",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Filtro da etiqueta do blog",
+    "description" : "",
+    "placeholders" : null
+  }
+}

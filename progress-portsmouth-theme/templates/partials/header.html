@@ -1,0 +1,78 @@
+<!--
+  templateType: global_partial
+  label: Page header
+-->
+<header class="header">
+  {# Top dnd area #}
+  {% dnd_area "header_dnd_top"
+    label="Top header",
+    class="header__dnd--top" %}
+  {% end_dnd_area %}
+  {# End top dnd area #}
+
+  <div class="header__container">
+    {# Logo #}
+    <div class="header__logo">
+      {% module "header_logo"
+        path="@hubspot/logo",
+        img={
+          "alt": "Vitality logo",
+          "height": "104",
+          "src": get_asset_url("../../images/vitality-theme-logo.png"),
+          "width": "502",
+          "loading": "eager"
+        } %}
+    </div>
+    {# End logo #}
+
+    {# Main navigation #}
+    <div class="header__menu">
+      <input type="checkbox" id="nav-toggle" />
+      <label class="header__navigation-toggle" for="nav-toggle">
+        <span class="header__mobile-menu-open-icon">
+          {% icon
+            name="bars",
+            no_wrapper=True,
+            style="SOLID",
+            width="24" %}
+        </span>
+        <span class="header__mobile-menu-close-icon">
+          {% icon
+            name="times",
+            no_wrapper=True,
+            style="SOLID",
+            width="24" %}
+        </span>
+      </label>
+      <div class="header__navigation">
+        {% module "header_navigation_primary"
+          path="../../modules/menu-section",
+          label="Primary navigation" %}
+      </div>
+    </div>
+    {# End main navigation #}
+
+    {# Language toggle #}
+    {% if content.translated_content.values()|selectattr("published")|length or is_listing_view and group.translations %}
+      <div class="header__language-switcher">
+        <div class="header__language-switcher-label">
+          {% module "language-switcher"
+            path="@hubspot/language_switcher",
+            label="Language switcher",
+            display_mode="localized" %}
+          <div class="header__language-switcher-label-current">
+            {{ locale_name(locale) }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {# End language toggle #}
+  </div>
+
+  {# Bottom dnd area #}
+  {% dnd_area "header_dnd_bottom"
+    label="Bottom header",
+    class="header__dnd--bottom" %}
+  {% end_dnd_area %}
+  {# End bottom dnd area #}
+</header>

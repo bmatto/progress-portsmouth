@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>การเปิดใช้ฟีเจอร์นี้จะช่วยให้คุณสามารถแก้ไขส่วนท้ายได้ด้วยการลากแล้ววาง<br/><br/>หลังจากที่เปิดใช้งานแล้ว เนื้อหาจะตั้งค่าใหม่ไปอยู่ในสถานะค่าเริ่มต้น <b>หากต้องการกู้คืนเนื้อหาก่อนหน้า เพียงปิดใช้การลากแล้ววาง</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "เปิดใช้การลากแล้ววาง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "เปิดใช้การลากแล้ววาง",
+    "description" : "",
+    "placeholders" : null
+  }
+}

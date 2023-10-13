@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "লেখক",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "বর্ননা",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "ফিচার করা ইমেজ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "কার্ড ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "তালিকা ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "লেআউটের ধরন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ব্লগ তালিকা",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "শিরোনাম পোস্ট করুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "প্রকাশের তারিখ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "আরও পড়ুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "আরও পড়ুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "আরও পাঠ্য পড়ুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "ট্যাগগুলি ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Autor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Beschreibung",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Feature-Bild",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Karte",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Liste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Layoutstil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blog-Listings",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Beitragstitel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Veröffentlichungsdatum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Weiterlesen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Weiterlesen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Weiterlesen-Text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Tags",
+    "description" : "",
+    "placeholders" : null
+  }
+}

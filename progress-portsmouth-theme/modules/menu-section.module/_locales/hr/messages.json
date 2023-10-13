@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Odjeljak izbornika",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Polje primarnog izbornika",
+    "description" : "",
+    "placeholders" : null
+  }
+}

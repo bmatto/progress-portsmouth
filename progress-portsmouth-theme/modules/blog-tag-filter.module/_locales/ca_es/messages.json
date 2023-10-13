@@ -1,0 +1,17 @@
+{
+  "all_articles_text.default" : {
+    "message" : "Tots els articles",
+    "description" : "",
+    "placeholders" : null
+  },
+  "all_articles_text.label" : {
+    "message" : "Text de tots els articles",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Filtre d'etiquetes de blog",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "ملف التعريف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "يتيح لك تمكين هذا الخيار تجاوز أنماط السمات الافتراضية. وسيؤدي تعطيل هذا الخيار إلى إعادة توصيل الوحدة النمطية بأنماط السمة الافتراضية.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "تجاوز النمط الافتراضي",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>يتمتع Joshua بخبرة تزيد عن 20 عامًا في مجال التكنولوجيا. وساعد في بدء هذه الشركة في عام 2015 بهدف مساعدة الناس على النمو. ويحب في أوقات فراغه الخروج مع أطفاله والذهاب إلى الشاطئ والطهي.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "السيرة الذاتية لملف التعريف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "صورة ملف التعريف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "اسم ملف التعريف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "الرئيس التنفيذي، الشريك المؤسس",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "موضع ملف التعريف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "لون الخلفية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "خيارات النمط",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "accessibility.label" : {
+    "message" : "ตัวเลือกการเข้าถึง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.decorative" : {
+    "message" : "ข้ามโดยตัวอ่านหน้าจอ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.semantic" : {
+    "message" : "อ่านโดยตัวอ่านหน้าจอ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.label" : {
+    "message" : "จุดประสงค์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.title.label" : {
+    "message" : "ชื่อเรื่อง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "icon_field.label" : {
+    "message" : "ไอคอน",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ไอคอน",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "การเปิดใช้ตัวเลือกนี้จะช่วยให้คุณสามารถแทนที่รูปแบบธีมค่าเริ่มต้นได้ การปิดใช้ตัวเลือกนี้จะเชื่อมต่อโมดูลกลับไปเป็นรูปแบบธีมค่าเริ่มต้นอีกครั้ง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "แทนที่รูปแบบค่าเริ่มต้น",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.color.label" : {
+    "message" : "สี",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "ตัวเลือกรูปแบบ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.help_text" : {
+    "message" : "ค่าเป็นพิกเซล",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.label" : {
+    "message" : "ขนาด",
+    "description" : "",
+    "placeholders" : null
+  }
+}

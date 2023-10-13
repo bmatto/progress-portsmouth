@@ -1,0 +1,95 @@
+/* Typography */
+
+body {
+  line-height: 1.55;
+  word-break: break-word;
+}
+
+html[lang^='ja'] body,
+html[lang^='zh'] body,
+html[lang^='ko'] body {
+  line-break: strict;
+  word-break: break-all;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1.55rem;
+}
+
+/* Anchors */
+
+a {
+  transition: color 0.1s ease-in;
+}
+
+a.button:disabled {
+  pointer-events: none;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1.55rem;
+}
+
+/* Lists */
+
+ul.no-list {
+  list-style: none;
+}
+
+/* Code Blocks */
+
+code {
+  vertical-align: bottom;
+}
+
+/* Blockquotes */
+
+blockquote {
+  font-size: 1.75rem;
+  font-weight: 200;
+  margin: 1.55rem 0;
+}
+
+/* Horizontal Rules */
+
+hr {
+  border: 0 none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+/* Subscripts and Superscripts */
+
+sup,
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Focus State */
+
+:focus {
+  outline: auto;
+}
+
+.disable-focus-styles :focus {
+  outline: none;
+}

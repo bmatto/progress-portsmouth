@@ -1,0 +1,47 @@
+{% if module.select_blog_type == 'recent_posts' %}
+  {% set post_listing = blog_recent_posts(module.select_blog, 3) %}
+{% else %}
+  {% set post_listing = blog_popular_posts(module.select_blog, 3) %}
+{% endif %}
+
+{% set blog_selector = blog_by_id(module.select_blog) %}
+
+<section class="blog-post-listing" id="blog-post-listing--{{ name }}">
+  <div class="blog-post-listing__header">
+    <h2 class="blog-post-listing__title">{{ module.heading_text }}</h2>
+    <div class="blog-post-listing__view-all">
+      <a class="button button--simple" href="{{ blog_selector.absolute_url }}">{{ module.view_all_button_text }}</a>
+    </div>
+  </div>
+  <div class="blog-post-listing__listing">
+    {% for post in post_listing %}
+      <article class="blog-post-listing__article">
+        {% if post.featured_image %}
+          <a class="blog-post-listing__image-wrapper" href="{{ post.absolute_url }}">
+            <img class="blog-post-listing__image" src="{{ post.featured_image }}" height="200" loading="lazy" alt="{{ post.featured_image_alt_text }}">
+          </a>
+        {% endif %}
+        <div class="blog-post-listing__content">
+          <div class="blog-post-listing__meta">
+            <time class="blog-post-listing__date" datetime="{{ post.publish_date }}">{{ post.publish_date_localized }}</time>
+          </div>
+          <h3 class="blog-post-listing__title"><a href="{{ post.absolute_url }}">{{ post.name }}</a></h3>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% if module.override_default_style %}
+  {% require_css %}
+    <style>
+      #blog-post-listing--{{ name }} .blog-post-listing__article {
+        background-color: rgba({{ module.style.background_color.color|convert_rgb }}, {{ module.style.background_color.opacity * 0.01 }});
+      }
+      #blog-post-listing--{{ name }} a,
+      #blog-post-listing--{{ name }} .blog-post-listing__date {
+        color: {{ module.style.text_color.color }};
+      }
+    </style>
+  {% end_require_css %}
+{% endif %}

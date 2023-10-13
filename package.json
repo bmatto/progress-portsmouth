@@ -1,0 +1,25 @@
+{
+  "name": "progress-portsmouth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd progress-portsmouth-project/progress-portsmouth-app && npm start",
+    "postinstall": "cd progress-portsmouth-project/progress-portsmouth-app && npm install",
+    "lint:js": "eslint . --ext .js,.jsx",
+    "prettier": "prettier . --check",
+    "hubl:watch": "hs watch progress-portsmouth-theme progress-portsmouth-theme",
+    "hubl:upload": "hs upload progress-portsmouth-theme progress-portsmouth-theme",
+    "deploy": "hs project upload progress-portsmouth-project"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hubspot/cli": "^5.0.1",
+    "@hubspot/prettier-plugin-hubl": "^0.2.5",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react": "^1.1.7",
+    "prettier": "^3.0.3"
+  }
+}

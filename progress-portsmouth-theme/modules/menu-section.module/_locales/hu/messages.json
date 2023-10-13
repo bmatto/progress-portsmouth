@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Menüszakasz",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Elsődleges menümező",
+    "description" : "",
+    "placeholders" : null
+  }
+}

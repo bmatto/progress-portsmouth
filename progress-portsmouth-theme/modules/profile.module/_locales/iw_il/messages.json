@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "פרופיל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "הפעלת אפשרות זו תאפשר לך לעקוף את סגנונות ערכת הנושא המהווים ברירת מחדל. השבתת אפשרות זו תחבר מחדש את המודול לסגנונות ערכת הנושא המהווים ברירת מחדל.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "עקוף סגנון ברירת מחדל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>לג'ושוע יש יותר מ-20 שנות ניסיון בתעשיית הטכנולוגיה. הוא עזר להקים חברה זו ב-2015 במטרה לעזור לאנשים לצמוח. בזמנו החופשי הוא אוהב לבלות עם הילדים, ללכת לחוף הים ולבשל.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "ביוגרפיה בפרופיל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "תמונת פרופיל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "ג'ושוע בק",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "שם פרופיל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "מנכ\"ל, מייסד",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "עמדה בפרופיל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "צבע רקע",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "אפשרויות סגנון",
+    "description" : "",
+    "placeholders" : null
+  }
+}

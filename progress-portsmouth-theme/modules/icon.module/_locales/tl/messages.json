@@ -1,0 +1,67 @@
+{
+  "accessibility.label" : {
+    "message" : "Mga opsyon sa accessibility",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.decorative" : {
+    "message" : "Di-pinansin ng screen reader",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.choices.semantic" : {
+    "message" : "Binasa ng screen reader",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.purpose.label" : {
+    "message" : "Layunin",
+    "description" : "",
+    "placeholders" : null
+  },
+  "accessibility.title.label" : {
+    "message" : "Pamagat",
+    "description" : "",
+    "placeholders" : null
+  },
+  "icon_field.label" : {
+    "message" : "Icon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Icon",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Magbibigay daan sa iyo ang pag-enable sa opsyon na ito na i-override ang mga default na estilo ng tema. Muling makokonekta pabalik sa mga default na estilo ng tema ang module kapag na-disable ang opsyon na ito.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "I-override sa default na estilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.color.label" : {
+    "message" : "Kulay",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Mga opsyon sa estilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.help_text" : {
+    "message" : "Nasa mga pixel ang value",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.size.label" : {
+    "message" : "Laki",
+    "description" : "",
+    "placeholders" : null
+  }
+}

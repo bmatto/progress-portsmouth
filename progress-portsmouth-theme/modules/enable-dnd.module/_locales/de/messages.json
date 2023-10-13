@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Durch Aktivieren dieser Funktion können Sie Ihre Fußzeile mit Drag-&-Drop bearbeiten.<br/><br/>Sobald sie aktiviert ist, wird der Inhalt in seinen Standardzustand zurückgesetzt.<b>Um Ihren vorherigen Inhalt wiederherzustellen, deaktivieren Sie einfach Drag-&-Drop.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Drag-&-Drop aktivieren",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Drag-&-Drop aktivieren",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Автор",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Описание",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Изображение за публикация",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Карта",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Списък",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Стил на оформление",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Списъци с блогове",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Заглавие на публикация",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Дата на публикуване",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Прочетете повече",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Прочетете повече",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Текст на прочетете повече",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Етикети",
+    "description" : "",
+    "placeholders" : null
+  }
+}

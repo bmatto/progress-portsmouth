@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Artikel Baru-baru Ini",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Teks tajuk",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Penyenaraian Siaran Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Pendayaan pilihan ini akan membenarkan anda menggantikan gaya tema lalai. Penyahdayaan pilihan ini akan menyambungkan semula modul kepada gaya tema lalai.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Mengatasi gaya lalai",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Pilih blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Siaran Popular",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Siaran Baru-baru Ini",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Pilih jenis blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Warna latar belakang",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Pilihan gaya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Warna teks",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Lihat Semua",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Lihat semua teks butang",
+    "description" : "",
+    "placeholders" : null
+  }
+}

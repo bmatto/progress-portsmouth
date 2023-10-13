@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "功能表區段",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "主要功能表欄位",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,13 @@
+[ {
+  "id" : "all_articles_text",
+  "name" : "all_articles_text",
+  "display_width" : null,
+  "label" : "All articles text",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "All Articles"
+} ]

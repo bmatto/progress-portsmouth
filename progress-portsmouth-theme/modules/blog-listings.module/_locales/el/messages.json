@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Συντάκτης",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Περιγραφή",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Προτεινόμενη εικόνα",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Κάρτα",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Καταχώρηση",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Στυλ διάταξης",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Καταχωρήσεις ιστολογίου",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Τίτλος ανάρτησης",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Ημερομηνία δημοσίευσης",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Διαβάστε περισσότερα",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Διαβάστε περισσότερα",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Κείμενο για διάβασμα περισσότερων",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Ετικέτες",
+    "description" : "",
+    "placeholders" : null
+  }
+}

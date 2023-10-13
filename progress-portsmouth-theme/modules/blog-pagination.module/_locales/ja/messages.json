@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "ブログのページ送り",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "次へ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "次のテキスト",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "前",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "前のテキスト",
+    "description" : "",
+    "placeholders" : null
+  }
+}

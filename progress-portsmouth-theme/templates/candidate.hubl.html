@@ -1,0 +1,27 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Candidate
+  screenshotPath: ../images/template-previews/blank.png
+-->
+{% extends './layouts/base.html' %} {% block body %}
+<main class="body-container-wrapper">
+{% if dynamic_page_hubdb_row %}
+
+  {% module
+    "candidates"
+    path="@projects/progress-portsmouth-project/progress-portsmouth-app/components/modules/CandidateDetail"
+  %}
+
+{% elif dynamic_page_hubdb_table_id %}
+  <ul>
+  {% for row in hubdb_table_rows(dynamic_page_hubdb_table_id) %}
+      <li><a href="{{ request.path }}/{{ row.hs_path }}">{{ row.hs_name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+
+
+</main>
+{% endblock body %}

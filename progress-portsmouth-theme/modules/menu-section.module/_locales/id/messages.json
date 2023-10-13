@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Bagian Menu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Bidang menu utama",
+    "description" : "",
+    "placeholders" : null
+  }
+}

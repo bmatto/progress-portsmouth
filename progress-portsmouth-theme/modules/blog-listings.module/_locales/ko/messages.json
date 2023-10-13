@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "작성자",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "설명",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "주요 이미지",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "카드",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "목록",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "레이아웃 스타일",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "블로그 목록",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "게시물 제목",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "게시일",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "자세한 내용",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "자세한 내용",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "자세히 알아보기 텍스트",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "태그",
+    "description" : "",
+    "placeholders" : null
+  }
+}

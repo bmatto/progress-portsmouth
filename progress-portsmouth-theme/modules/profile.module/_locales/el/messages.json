@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Προφίλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Η ενεργοποίηση αυτής της επιλογής θα σας επιτρέψει να παρακάμψετε τα προεπιλεγμένα στυλ θέματος. Η απενεργοποίηση αυτής της επιλογής θα επανασυνδέσει τη λειτουργική μονάδα στα προεπιλεγμένα στυλ θέματος.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Παράκαμψη προεπιλεγμένου στυλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Ο Στέλιος έχει πάνω από 20 χρόνια εμπειρίας στη βιομηχανία τεχνολογίας. Βοήθησε στην ίδρυση αυτής της εταιρείας το 2015 με την αποστολή να βοηθήσει τους ανθρώπους να αναπτυχθούν. Στον ελεύθερο χρόνο του, του αρέσει να κάνει παρέα με τα παιδιά του, να πηγαίνει στην παραλία και να μαγειρεύει.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Βιογραφικό προφίλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Εικόνα προφίλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Στέλιος Μπάκας",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Όνομα προφίλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "Διευθύνων Σύμβουλος, Συνιδρυτής",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Θέση προφίλ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Χρώμα φόντου",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Επιλογές στυλ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

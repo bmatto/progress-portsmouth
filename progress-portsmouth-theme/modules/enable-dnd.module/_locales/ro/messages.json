@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Activarea acestei caracteristici vă va permite să editați subsolul cu funcția de glisare și fixare.<br/><br/>După ce funcția este activată, conținutul este resetat la starea implicită. <b>Pentru recuperarea conținutului anterior, folosiți funcția de glisare și fixare.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Activare glisare și fixare",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Activare glisare și fixare",
+    "description" : "",
+    "placeholders" : null
+  }
+}

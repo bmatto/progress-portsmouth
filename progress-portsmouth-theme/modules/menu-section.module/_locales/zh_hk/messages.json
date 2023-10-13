@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "選單區塊",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "主要選單欄位",
+    "description" : "",
+    "placeholders" : null
+  }
+}

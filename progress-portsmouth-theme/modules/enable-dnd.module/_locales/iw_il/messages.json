@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>הפעלת תכונה זו תאפשר לך לערוך את הכותרת התחתונה באמצעות גרירה ושחרור.<br/><br/>לאחר הפעלתה, התוכן יאופס למצב ברירת המחדל שלו. <b>כדי לשחזר את התוכן הקודם, פשוט השבת גרירה ושחרור.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "אפשר גרירה ושחרור",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "אפשר גרירה ושחרור",
+    "description" : "",
+    "placeholders" : null
+  }
+}

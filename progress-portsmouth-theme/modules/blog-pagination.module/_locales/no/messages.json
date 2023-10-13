@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Bloggpaginering",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Neste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Neste tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Forrige",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Forrige tekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Secțiune meniu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Câmp meniu principal",
+    "description" : "",
+    "placeholders" : null
+  }
+}

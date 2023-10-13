@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Författare",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Beskrivning",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Framhävd bild",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kort",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Lista",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Layoutstil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blogglistor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Inläggstitel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Publiceringsdatum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Läs mer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Läs mer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Läs mer text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Taggar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

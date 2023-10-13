@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Stránkovanie blogu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Ďalej",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Nasledujúci text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Predchádzajúce",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Predchádzajúci text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

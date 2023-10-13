@@ -1,0 +1,108 @@
+{# Set layout style #}
+{% if module.layout_style == 'card' %}
+  {% set list_type = 'card' %}
+{% elif module.layout_style == 'list' %}
+  {% set list_type = 'list' %}
+{% endif %}
+
+<section class="blog-index">
+  {% for content in contents %}
+
+    {# Blog listing article #}
+    <article class="blog-index__post blog-index__post--{{ list_type }}">
+
+      {# Featured image #}
+      {# This checks to see if a user is opted into the blog listing editing experience. If they are it uses the conditional from the module. If they are not it uses the conditional from blog settings #}
+      {% if blog.listing_page_id %}
+        {% if content.featured_image and module.featured_image %}
+          {% if list_type == 'list' %}
+            <div class="blog-index__post-image-wrapper blog-index__post-image-wrapper--{{ list_type }}">
+          {% endif %}
+            <img class="blog-index__post-image blog-index__post-image--{{ list_type }}" src="{{ content.featured_image }}" loading="lazy" alt="{{ content.featured_image_alt_text }}">
+            {% if list_type == 'list' %}
+              </div>
+            {% endif %}
+        {% endif %}
+      {% else %}
+        {% if content.featured_image and group.use_featured_image_in_summary %}
+          {% if list_type == 'list' %}
+            <div class="blog-index__post-image-wrapper blog-index__post-image-wrapper--{{ list_type }}">
+          {% endif %}
+            <img class="blog-index__post-image blog-index__post-image--{{ list_type }}" src="{{ content.featured_image }}" loading="lazy" alt="{{ content.featured_image_alt_text }}">
+            {% if list_type == 'list' %}
+              </div>
+            {% endif %}
+        {% endif %}
+      {% endif %}
+      {# End featured image #}
+
+      {# Article body #}
+      <section class="blog-index__post-content blog-index__post-content--{{ list_type }} {% if !content.featured_image or !group.use_featured_image_in_summary or !module.featured_image %}blog-index__post-content--no-image{% endif %}">
+
+        {# Tags #}
+        {% if module.tags and content.tag_list %}
+          <div class="blog-index__post-tags blog-index__post-tags--{{ list_type }}">
+            {% for tag in content.tag_list %}
+              <a class="blog-index__post-tag-link blog-index__post-tag-link--{{ list_type }}" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+        {# End tags #}
+
+        {# Title #}
+        {% if module.post_title %}
+          <h3 class="blog-index__post-title blog-index__post-title--{{ list_type }}"><a href="{{ content.absolute_url }}">{{ content.name }}</a></h3>
+        {% endif %}
+        {# End title #}
+
+        {# Author #}
+        {% if module.author %}
+          <a class="blog-index__post-author-name blog-index__post-author-name--{{ list_type }}" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a>
+        {% endif %}
+        {# End author #}
+
+        {# Date #}
+        {% if module.publish_date %}
+          <time class="blog-index__post-date blog-index__post-date--{{ list_type }}" datetime="{{ content.publish_date }}">{{ content.publish_date_localized }}</time>
+        {% endif %}
+        {# End date #}
+
+        {# Summary #}
+        {# This checks to see if a user is opted into the blog listing editing experience. If they are it uses the conditional from the module. If they are not it uses the conditional from blog settings #}
+        {% if blog.listing_page_id %}
+          {% if module.description %}
+            <div class="blog-index__post-post-summary blog-index__post-post-summary--{{ list_type }}">
+              {% if content.post_body is string_containing "<!--more-->" %}
+                {{ content.post_list_content }}
+              {% else %}
+                {{ content.post_list_content|truncatehtml(170) }}
+              {% endif %}
+            </div>
+          {% endif %}
+        {% else %}
+          {% if content_group.show_summary_in_listing %}
+            <div class="blog-index__post-post-summary blog-index__post-post-summary--{{ list_type }}">
+              {% if content.post_body is string_containing "<!--more-->" %}
+                {{ content.post_list_content }}
+              {% else %}
+                {{ content.post_list_content|truncatehtml(170) }}
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endif %}
+        {# End summary #}
+
+        {# Read more button #}
+        {% if module.read_more %}
+          <a class="blog-index__post-button blog-index__post-button--{{ list_type }} button button--simple" href="{{ content.absolute_url }}">{{ module.read_more_text }}</a>
+        {% endif %}
+        {# End read more button #}
+
+      </section>
+      {# End article body #}
+
+    </article>
+    {# End blog listing article #}
+
+  {% endfor %}
+</section>

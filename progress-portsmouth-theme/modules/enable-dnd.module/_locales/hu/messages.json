@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>A funkció engedélyezésével lehetősége lesz a lábléc húzzással való szerkesztésére.<br/><br/>Az engedélyezést követően a tartalom visszaáll az alapértelmezett állapotra. <b>Az előző tartalom visszaállításához egyszerűen tiltsa le a húzással való elhelyezés funkciót.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Húzzással való elhelyezés engedélyezése",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Húzzással való elhelyezés engedélyezése",
+    "description" : "",
+    "placeholders" : null
+  }
+}

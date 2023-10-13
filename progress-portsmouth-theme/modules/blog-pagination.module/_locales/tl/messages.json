@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Pagbilang ng pahina ng blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Susunod",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Teksto na susunod",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Nakaraan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Teksto na nakaraan",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Menydel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Hovedmenyfelt",
+    "description" : "",
+    "placeholders" : null
+  }
+}

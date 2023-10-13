@@ -1,0 +1,111 @@
+[ {
+  "id" : "heading_text",
+  "name" : "heading_text",
+  "display_width" : null,
+  "label" : "Heading text",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Recent Articles"
+}, {
+  "id" : "view_all_button_text",
+  "name" : "view_all_button_text",
+  "display_width" : null,
+  "label" : "View all button text",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "View All"
+}, {
+  "id" : "select_blog",
+  "name" : "select_blog",
+  "display_width" : null,
+  "label" : "Select blog",
+  "required" : true,
+  "locked" : false,
+  "type" : "blog"
+}, {
+  "id" : "select_blog_type",
+  "name" : "select_blog_type",
+  "display_width" : null,
+  "label" : "Select blog type",
+  "required" : true,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "recent_posts", "Recent Posts" ], [ "popular_posts", "Popular Posts" ] ],
+  "multiple" : false,
+  "reordering_enabled" : true,
+  "preset" : null,
+  "type" : "choice",
+  "default" : "recent_posts"
+}, {
+  "id" : "override_default_style",
+  "name" : "override_default_style",
+  "display_width" : null,
+  "label" : "Override default style",
+  "help_text" : "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "style",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style options",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "override_default_style",
+    "controlling_field_path" : null,
+    "controlling_value_regex" : "true",
+    "property" : null,
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "style.background_color",
+    "name" : "background_color",
+    "display_width" : null,
+    "label" : "Background color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#FBF7F1",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "style.text_color",
+    "name" : "text_color",
+    "display_width" : null,
+    "label" : "Text color",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : null,
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : null,
+      "access" : null,
+      "hidden_subfields" : {
+        "opacity" : true
+      }
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#231F1F"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group"
+} ]

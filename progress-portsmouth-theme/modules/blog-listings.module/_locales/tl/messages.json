@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "May-akda",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Paglalarawan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Tampok na larawan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Card",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Listahan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Estilo ng layout",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Mga Listing ng Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Pamagat ng post",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Petsa ng paglathala",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Magbasa pa",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Magbasa Pa",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Teksto na magbasa pa",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Mga tag",
+    "description" : "",
+    "placeholders" : null
+  }
+}

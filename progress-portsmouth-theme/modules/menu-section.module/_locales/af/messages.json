@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Kieslysafdeling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Primêre kieslysveld",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Secció del menú",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Camp del menú principal",
+    "description" : "",
+    "placeholders" : null
+  }
+}

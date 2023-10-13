@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Outeur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Beskrywing",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Vertoonde beeld",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kaartjie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Lys",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Uitlegstyl",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Bloglysinskrywings",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Plasingtitel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Publikasiedatum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Lees meer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Lees meer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Lees-meer-teks",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Etikette",
+    "description" : "",
+    "placeholders" : null
+  }
+}

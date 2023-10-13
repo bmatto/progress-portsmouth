@@ -1,0 +1,22 @@
+{
+  "name": "progress-portsmouth-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "hs-cms-dev-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hubspot/cms-dev-server": "latest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@hubspot/cms-components": "latest",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11"
+  }
+}

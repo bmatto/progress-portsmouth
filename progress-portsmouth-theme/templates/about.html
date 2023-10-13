@@ -1,0 +1,346 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: About
+  screenshotPath: ../images/template-previews/about.png
+-->
+{% extends './layouts/base.html' %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  {% dnd_area 'dnd_area'
+    label='Main section',
+    class='body-container body-container--about-page'
+  %}
+
+    {# Banner Section #}
+    {% dnd_section
+      background_image={
+        'backgroundPosition': 'MIDDLE_CENTER',
+        'backgroundSize': 'cover',
+        'imageUrl': get_asset_url('../images/about-banner.jpg')
+      },
+      padding={
+        'top': 200,
+        'right': 20,
+        'bottom': 200,
+        'left': 20
+      },
+      vertical_alignment='MIDDLE'
+    %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+          {% module_attribute 'html' %}
+            <h1 style="color: #FFF;">About Our Studio</h1>
+          {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End Banner Section #}
+
+    {# About Us Section #}
+    {% dnd_section %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+          {% module_attribute 'html' %}
+            <h2>Our Mission</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm odo consequat. Uom ad minim veniam, quis nostrud exercitation.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm odo consequat. Uom ad minim veniam, quis nostrud exercitation.</p>
+          {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End About Us Section #}
+
+    {# Out Studio Section #}
+    {% dnd_section
+      background_color={{ theme.colors.secondary.color }}
+    %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+          {% module_attribute 'html' %}
+            <h2>Our Studio</h2>
+          {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row
+          margin={
+            'bottom': 22
+          }
+        %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'Woman doing yoga pose in yoga studio',
+              'loading': 'lazy',
+              'max_height': 389,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-1.png')
+            }
+            offset=0,
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'A lit candle',
+              'loading': 'lazy',
+              'max_height': 392,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-2.png')
+            },
+            offset=4,
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'Three women doing yoga poses in a yoga studio',
+              'loading': 'lazy',
+              'max_height': 386,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-3.png')
+            },
+            offset=8,
+            width=4
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'A neon sign that reads "and breathe"',
+              'loading': 'lazy',
+              'max_height': 392,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-4.png')
+            },
+            offset=0,
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'A fitness instructor helping a fitness member stretch their leg',
+              'loading': 'lazy',
+              'max_height': 392,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-5.png')
+            },
+            offset=4,
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='@hubspot/linked_image',
+            img={
+              'alt': 'Two women talking in a yoga studio',
+              'loading': 'lazy',
+              'max_height': 392,
+              'max_width': 392,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/studio-6.png')
+            },
+            offset=8,
+            width=4
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End Our Studio Section #}
+
+    {# Our Team Section #}
+    {% dnd_section %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+          {% module_attribute 'html' %}
+            <h2>Our Team</h2>
+          {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=0,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Michelle Anio',
+              'loading': 'lazy',
+              'max_height': 200,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/michelle.png')
+            },
+            profile_name='Michelle Anio',
+            profile_position='Owner',
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=4,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Anthony Range',
+              'loading': 'lazy',
+              'max_height': 200,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/anthony.png')
+            },
+            profile_name='Anthony Range',
+            profile_position='500 hr. Certified Instructor',
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=8,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Ella France',
+              'loading': 'lazy',
+              'max_height': 200,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/ella.png')
+            },
+            profile_name='Ella France',
+            profile_position='Reiki Therapist',
+            width=4
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=0,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Ray Jones',
+              'loading': 'lazy',
+              'max_height': 200,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/ray.png')
+            },
+            profile_name='Ray Jones',
+            profile_position='Studio Coordinator',
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=4,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Rachel Stone',
+              'loading': 'lazy',
+              'max_height': 208,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/rachel.png')
+            },
+            profile_name='Rachel Stone',
+            profile_position='500 hr. Certified Instructor',
+            width=4
+          %}
+          {% end_dnd_module %}
+          {% dnd_module
+            path='../modules/profile',
+            horizontal_alignment='CENTER',
+            offset=8,
+            profile_bio='<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus posuere mi, in pretium ante posuere a. Aliquam a risus at eros molestie pretium. Integer nec est sed neque pretium suscipit ac ut enim. Integer fringilla nisl eu fringilla fermentum. Nullam feugiat dolor ac condimentum imperdiet.</p>',
+            profile_image={
+              'alt': 'Lauren Roberson',
+              'loading': 'lazy',
+              'max_height': 200,
+              'max_width': 200,
+              'size_type': 'auto_custom_max',
+              'src': get_asset_url('../images/lauren.png')
+            },
+            profile_name='Lauren Roberson',
+            profile_position='500 hr. Certified Instructor',
+            width=4
+          %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End Our Team Section #}
+
+    {# CTA Section #}
+    {% dnd_section
+      padding={
+        'right': 20,
+        'left': 20
+      },
+      background_image={
+        'backgroundPosition': 'MIDDLE_CENTER',
+        'backgroundSize': 'cover',
+        'imageUrl': get_asset_url('../images/about-cta-banner.jpg')
+      },
+      vertical_alignment='MIDDLE'
+    %}
+      {% dnd_column
+        offset=0,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/rich_text' %}
+            {% module_attribute 'html' %}
+              <h2>Want to Join Our Team?</h2>
+              <p>We are always looking for new trainers and staff members to help keep our studio running. If you have experience and would like to join our team please check out some of the open positions on our jobs page.</p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+        {% dnd_row %}
+            {% dnd_module
+              path='../modules/button',
+              horizontal_alignment='LEFT',
+              button_text='Visit Our Jobs Page'
+            %}
+            {% module_attribute 'style' is_json=True %}
+              {
+                "button_type": "simple"
+              }
+            {% end_module_attribute %}
+            {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_column
+        offset=6,
+        width=6
+      %}
+        {% dnd_row %}
+          {% dnd_module path='@hubspot/horizontal_spacer' %}
+          {% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+    {# End CTA Section #}
+
+  {% end_dnd_area %}
+</main>
+{% endblock body %}

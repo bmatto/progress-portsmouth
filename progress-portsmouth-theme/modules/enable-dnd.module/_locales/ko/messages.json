@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>이 기능을 활성화하면 드래그 앤 드롭으로 바닥글을 편집할 수 있습니다.<br/><br/>기능이 활성화되면 콘텐츠가 기본 상태로 재설정됩니다. <b>이전 콘텐츠를 복원하려면 드래그 앤 드롭을 비활성화하세요.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "드래그 앤 드롭 활성화",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "드래그 앤 드롭 활성화",
+    "description" : "",
+    "placeholders" : null
+  }
+}

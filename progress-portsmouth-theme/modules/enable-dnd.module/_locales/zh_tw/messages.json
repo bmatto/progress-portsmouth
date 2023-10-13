@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>啟用此功能讓你可以用拖放方式編輯註腳。<br/><br/>啟用後，內容會重設為預設狀態。<b>如要恢復先前的內容，只需要停用拖放。</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "啟用拖放",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "啟用拖放",
+    "description" : "",
+    "placeholders" : null
+  }
+}

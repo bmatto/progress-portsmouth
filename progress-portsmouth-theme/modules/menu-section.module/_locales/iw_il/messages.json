@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "מקטע תפריט",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "שדה תפריט ראשי",
+    "description" : "",
+    "placeholders" : null
+  }
+}

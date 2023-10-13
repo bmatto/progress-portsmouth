@@ -1,0 +1,167 @@
+<!--
+  templateType: blog_post
+  isAvailableForNewContent: true
+  label: Vitality - blog post
+  screenshotPath: ../images/template-previews/blog-post.png
+-->
+{% set template_css = '../../css/templates/blog.css' %}
+{% extends './layouts/base.html' %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  <div class="body-container body-container--blog-post">
+    <div class="content-wrapper content-wrapper--narrow">
+
+      {# Blog Post #}
+      <article class="blog-post">
+
+        {# Blog Post Header #}
+        <header class="blog-post__header">
+          {% if content.tag_list %}
+            <div class="blog-post__tags">
+              {% for tag in content.tag_list %}
+                <a class="blog-post__tag-link" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <h1 class="blog-post__title">{{ content.name }}</h1>
+          <div class="blog-post__meta">
+            <span class="blog-post__date">{{ content.publish_date_localized }}</span>
+            <a class="blog-post__author-name" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">by {{ content.blog_post_author.display_name }}</a>
+          </div>
+          <div class="blog-post__social-sharing">
+            <div class="social-links">
+              {% if group.show_social_link_twitter %}
+                <a href="https://twitter.com/intent/tweet?text=I+found+this+interesting+blog+post&url={{ content.absolute_url }}" target="_blank" rel="noopener" class="social-links__icon">
+                  {% icon
+                    name='twitter',
+                    purpose='semantic',
+                    style='solid',
+                    title='Share this blog post on Twitter'
+                  %}
+                </a>
+              {% endif %}
+              {% if group.show_social_link_facebook %}
+                <a href="http://www.facebook.com/share.php?u={{ content.absolute_url }}" target="_blank" rel="noopener" class="social-links__icon">
+                  {% icon
+                    name='facebook-f',
+                    purpose='semantic',
+                    style='solid',
+                    title='Share this blog post on Facebook'
+                  %}
+                </a>
+              {% endif %}
+              {% if group.show_social_link_linkedin %}
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ content.absolute_url }}" target="_blank" rel="noopener" class="social-links__icon">
+                  {% icon
+                    name='linkedin-in',
+                    purpose='semantic',
+                    style='solid',
+                    title='Share this blog post on LinkedIn'
+                  %}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </header>
+        {# End Blog Post Header #}
+
+        {# Blog Post Featured Image #}
+        {% if content.post_list_summary_featured_image %}
+          <div class="featured-image-wrapper">
+            <img src="{{ content.post_list_summary_featured_image }}" loading="eager" alt="{{ content.featured_image_alt_text }}" class="featured-image">
+          </div>
+        {% endif %}
+        {# End Blog Post Featured Image #}
+
+        {# Blog Post Body #}
+        <section class="blog-post__body">
+          {{ content.post_body }}
+        </section>
+        {# End Blog Post Body #}
+
+        {# Blog Post Footer #}
+        <footer class="blog-post__footer">
+          {% if content.blog_author %}
+            <section class="blog-post__author">
+              {% if content.blog_author.avatar %}
+                <img src="{{ content.blog_author.avatar }}" loading="lazy" alt="{{ content.blog_author.display_name }}" class="blog-post__author-image">
+              {% endif %}
+              <div class="blog-post__author-about">
+                <h5 class="blog-post__author-name">{{ content.blog_author.display_name }}</h5>
+                <p class="blog-post__author-bio">{{ content.blog_author.bio }}</p>
+                <div class="social-links">
+                  {% if content.blog_post_author.twitter %}
+                    <a href="{{ content.blog_post_author.twitter }}" target="_blank" rel="noopener" class="social-links__icon">
+                      {% icon
+                        name='twitter',
+                        urpose='semantic',
+                        style='solid',
+                        title='Follow me on Twitter'
+                      %}
+                    </a>
+                  {% endif %}
+                  {% if content.blog_post_author.facebook %}
+                    <a href="{{ content.blog_post_author.facebook }}" target="_blank" rel="noopener" class="social-links__icon">
+                      {% icon
+                        name='facebook-f',
+                        urpose='semantic',
+                        style='solid',
+                        title='Follow me on Facebook'
+                      %}
+                    </a>
+                  {% endif %}
+                  {% if content.blog_post_author.linkedin %}
+                    <a href="{{ content.blog_post_author.linkedin }}" target="_blank" rel="noopener" class="social-links__icon">
+                      {% icon
+                        name='linkedin-in',
+                        urpose='semantic',
+                        style='solid',
+                        title='Follow me on LinkedIn'
+                      %}
+                    </a>
+                  {% endif %}
+                  {% if content.blog_post_author.website %}
+                    <a href="{{ content.blog_post_author.website }}" target="_blank" rel="noopener" class="social-links__icon">
+                      {% icon
+                        name='globe',
+                        urpose='semantic',
+                        style='solid',
+                        title='Follow my website'
+                      %}
+                    </a>
+                  {% endif %}
+                  {% if content.blog_post_author.email %}
+                    <a href="mailto:{{ content.blog_post_author.email }}" target="_blank" rel="noopener" class="social-links__icon">
+                      {% icon
+                        name='envelope',
+                        urpose='semantic',
+                        style='solid',
+                        title='Send me an email'
+                      %}
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            </section>
+          {% endif %}
+          {% if group.allow_comments %}
+            <section class="blog-post__comments-listing">
+              {% module 'header'
+                path='@hubspot/header',
+                header_tag='h3',
+                value='Leave a Comment'
+              %}
+              {% module 'blog_comments' path='@hubspot/blog_comments' %}
+            </section>
+          {% endif %}
+        </footer>
+        {# End Blog Post Footer #}
+
+      </article>
+      {# End Blog Post #}
+
+    </div>
+  </div>
+</main>
+{% endblock body %}

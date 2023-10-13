@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Įjungę šią funkciją, redaguoti poraštę galėsite naudodami vilkimą.<br/><br/>Įjungus bus nustatyta numatytoji turinio būsena. <b>Norėdami atkurti ankstesnį turinį, tiesiog išjunkite vilkimą.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Įjungti vilkimą",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Įjungti vilkimą",
+    "description" : "",
+    "placeholders" : null
+  }
+}

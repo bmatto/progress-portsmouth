@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>この機能を有効にすると、ドラッグ＆ドロップでフッターを編集できます。<br/><br/>有効にすると、コンテンツは既定の状態にリセットされます。<b>ドラッグ＆ドロップを無効にするだけで、以前のコンテンツを復元できます。</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "ドラッグ＆ドロップを有効化",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ドラッグ＆ドロップを有効化",
+    "description" : "",
+    "placeholders" : null
+  }
+}

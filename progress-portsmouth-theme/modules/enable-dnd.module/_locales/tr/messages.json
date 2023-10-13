@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Bu özelliğin etkinleştirilmesi, alt bilginizi sürükle ve bırak ile düzenlemenize olanak tanır.<br/><br/>Etkinleştirildiğinde içerik varsayılan durumuna sıfırlanacaktır. <b>Önceki içeriğinizi kurtarmak için sürükle ve bırak özelliğini devre dışı bırakmanız yeterlidir.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Sürükle ve bırak özelliğini etkinleştir",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Sürükle ve bırak özelliğini etkinleştir",
+    "description" : "",
+    "placeholders" : null
+  }
+}

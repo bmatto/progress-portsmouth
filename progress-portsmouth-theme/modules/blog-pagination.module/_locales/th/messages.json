@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "การแบ่งหน้าบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "ถัดไป",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "ข้อความถัดไป",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "ก่อนหน้า",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "ข้อความก่อนหน้า",
+    "description" : "",
+    "placeholders" : null
+  }
+}

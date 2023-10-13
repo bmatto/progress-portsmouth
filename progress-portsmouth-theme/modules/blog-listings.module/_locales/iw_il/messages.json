@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "מחבר",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "תיאור",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "תמונה מוצגת",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "כרטיס",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "רשימה",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "סגנון הפריסה",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "רישום בבלוג",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "כותרת הפוסט",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "תאריך פרסום",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "לפרטים נוספים",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "קרא פרטים נוספים",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "קרא טקסט נוסף",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "תגיות",
+    "description" : "",
+    "placeholders" : null
+  }
+}

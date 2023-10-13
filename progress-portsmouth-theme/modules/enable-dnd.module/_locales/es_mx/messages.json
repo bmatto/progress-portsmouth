@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Activar esta característica te permitirá editar el pie de página con arrastrar y soltar.<br/><br/>Una vez que esté activado, el contenido se restablecerá en su estado predeterminado. <b>Para recuperar el contenido anterior, simplemente desactiva arrastrar y soltar.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Activar arrastrar y soltar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Activar arrastrar y soltar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

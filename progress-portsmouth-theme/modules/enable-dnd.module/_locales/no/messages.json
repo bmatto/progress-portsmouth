@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Ved å aktivere denne funksjonen kan du redigere bunnteksten med dra og slipp.<br/><br/>Når dette er aktivert, vil innholdet bli tilbakestilt til standardtilstand.<b>For å gjenopprette tidligere innhold, deaktiverer du dra og slipp.</b> ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Aktiver dra og slipp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Aktiver dra og slipp",
+    "description" : "",
+    "placeholders" : null
+  }
+}

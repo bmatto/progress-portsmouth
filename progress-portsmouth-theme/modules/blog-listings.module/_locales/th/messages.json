@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "ผู้เขียน",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "คำอธิบาย",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "รูปภาพที่แสดง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "บัตร",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "รายการ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "รูปแบบเค้าโครง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "รายการบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "ชื่อโพสต์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "วันที่เผยแพร่",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "อ่านเพิ่มเติม",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "อ่านเพิ่มเติม",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "ข้อความสำหรับอ่านเพิ่มเติม",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "แท็ก",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>As jy hierdie funksie aktiveer, kan jy jou voetskrif met sleep-en-los verander.<br/><br/>Sodra dit geaktiveer is, sal die inhoud na die standaard toe terugstel.<b>Om jou vorige inhoud te herstel, moet jy bloot sleep-en-los deaktiveer.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Aktiveer sleep-en-los",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Aktiveer sleep-en-los",
+    "description" : "",
+    "placeholders" : null
+  }
+}

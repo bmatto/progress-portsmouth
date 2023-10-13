@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Genom att aktivera denna funktion kan du redigera fotnoten genom att dra och släppa.<br/><br/>När den aktiverats kommer innehållet att återställas till sitt standardskick.<b>För att återhämta ditt tidigare innehåll är det bara att inaktivera dra och släpp.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Aktivera dra och släpp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Aktivera dra och släpp",
+    "description" : "",
+    "placeholders" : null
+  }
+}

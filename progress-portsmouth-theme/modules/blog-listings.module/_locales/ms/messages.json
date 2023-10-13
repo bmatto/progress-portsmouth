@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Penulis",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Penerangan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Imej yang ditampilkan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kad",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Senarai",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Gaya tataletak",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Penyenaraian Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Tajuk siaran",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Tarikh terbit",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Baca lebih lanjut",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Baca Lebih Lanjut",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Teks baca lebih lanjut",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Tag",
+    "description" : "",
+    "placeholders" : null
+  }
+}

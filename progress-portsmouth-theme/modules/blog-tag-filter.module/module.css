@@ -1,0 +1,45 @@
+.blog-tag-filter__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-tag-filter__menu-item {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+}
+
+@media (max-width: 479px) {
+  .blog-tag-filter__menu-item {
+    display: block;
+    margin-bottom: 1.4rem;
+    margin-right: 0;
+  }
+}
+
+.blog-tag-filter__menu-link {
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blog-tag-filter__menu-link--active-item {
+  position: relative;
+}
+
+.blog-tag-filter__menu-link--active-item:after {
+  bottom: -3px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.blog-tag-filter__menu-link:hover,
+.blog-tag-filter__menu-link:focus {
+  text-decoration: none;
+}

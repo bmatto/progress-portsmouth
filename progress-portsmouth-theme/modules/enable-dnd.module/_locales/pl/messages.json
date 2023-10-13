@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Włączenie tej funkcji pozwoli na edycję stopki metodą przeciągania i upuszczania.<br/><br/>Po jej włączeniu treść zostanie przywrócona do stanu domyślnego. <b>Aby odzyskać poprzednią treść, wystarczy wyłączyć funkcję przeciągania i upuszczania.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Włącz przeciąganie i upuszczanie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Włącz przeciąganie i upuszczanie",
+    "description" : "",
+    "placeholders" : null
+  }
+}

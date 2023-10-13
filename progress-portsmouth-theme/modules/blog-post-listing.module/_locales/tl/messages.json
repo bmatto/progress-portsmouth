@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "Mga Kamakailan na Artikulo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "Heading text",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Listing ng Blog Post",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Magbibigay daan sa iyo ang pag-enable sa opsyon na ito na i-override ang mga default na estilo ng tema. Muling makokonekta pabalik sa mga default na estilo ng tema ang module kapag na-disable ang opsyon na ito.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "I-override sa default na estilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "Pumili ng blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "Mga Sikat na Post",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "Mga Kamakailan na Post",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "Pumili ng uri ng blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Background na kulay",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Mga opsyon sa estilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "Kulay ng teksto",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "Tingnan Lahat",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "Tingnan ang lahat ng button text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,22 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Election Central
+  screenshotPath: ../images/template-previews/blank.png
+-->
+{% extends './layouts/base.html' %} {% block body %}
+<main class="body-container-wrapper">
+  {# {% dnd_area 'dnd_area'
+    label='Main section',
+    class='body-container body-container--blank-page'
+  %}
+
+  {% end_dnd_area %} #}
+
+  {% module
+    "candidates"
+    path="@projects/progress-portsmouth-project/progress-portsmouth-app/components/modules/Candidates"
+  %}
+
+</main>
+{% endblock body %}

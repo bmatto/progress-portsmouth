@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "מאמרים אחרונים",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "טקסט כותרת",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "רישום פוסט בבלוג",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "הפעלת אפשרות זו תאפשר לך לעקוף את סגנונות ערכת הנושא המהווים ברירת מחדל. השבתת אפשרות זו תחבר מחדש את המודול לסגנונות ערכת הנושא המהווים ברירת מחדל.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "עקוף סגנון ברירת מחדל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "בחר בלוג",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "פוסטים פופולריים",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "פוסטים אחרונים",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "בחר סוג בלוג",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "צבע רקע",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "אפשרויות סגנון",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "צבע טקסט",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "הצג הכל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "טקסט לחצן 'הצג הכל'",
+    "description" : "",
+    "placeholders" : null
+  }
+}

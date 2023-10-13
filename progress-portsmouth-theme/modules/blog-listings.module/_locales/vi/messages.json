@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Tác giả",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Mô tả",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Hình ảnh nổi bật",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Thẻ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Danh sách",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Kiểu bố cục",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Danh sách blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Tiêu đề bài đăng",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Ngày phát hành",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Đọc thêm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Đọc thêm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Văn bản Đọc thêm",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Thẻ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

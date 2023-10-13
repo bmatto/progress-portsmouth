@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "قسم القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "حقل القائمة الأساسي",
+    "description" : "",
+    "placeholders" : null
+  }
+}

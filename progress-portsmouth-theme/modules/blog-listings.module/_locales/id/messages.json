@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Penulis",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Deskripsi",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Tampilan gambar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kartu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Daftar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Gaya tata letak",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Daftar Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Judul posting",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Tanggal terbit",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Baca selengkapnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Baca Selengkapnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Baca teks selengkapnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Tag",
+    "description" : "",
+    "placeholders" : null
+  }
+}

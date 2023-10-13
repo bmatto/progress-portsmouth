@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Door deze functie in te schakelen kun je je voettekst via slepen en neerzetten bewerken.<br/><br/>Zodra dit is ingeschakeld, wordt de inhoud teruggezet naar de standaard status. <b>Als je je vorige inhoud wilt herstellen, schakel je drag-and-drop gewoon uit.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Drag-and-drop inschakelen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Drag-and-drop inschakelen",
+    "description" : "",
+    "placeholders" : null
+  }
+}

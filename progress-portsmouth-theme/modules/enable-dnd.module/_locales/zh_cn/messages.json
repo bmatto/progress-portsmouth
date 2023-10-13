@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>启用此功能之后，您可以通过拖放来编辑页脚。<br/><br/>启用之后，内容将重置为其默认状态。<b>要恢复您之前的内容，只需停用拖放功能即可。</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "启用拖放功能",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "启用拖放功能",
+    "description" : "",
+    "placeholders" : null
+  }
+}

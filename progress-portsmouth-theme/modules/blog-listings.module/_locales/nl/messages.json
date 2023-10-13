@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Auteur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Beschrijving",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Uitgelichte afbeelding",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kaart",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Lijst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Lay-outstijl",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blogvermeldingen",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Titel van artikel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Publicatiedatum",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Meer info",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Meer informatie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Lees meer-tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Tags",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "প্রোফাইল ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "এই বিকল্পটি সক্ষম করা আপনাকে ডিফল্ট থিম শৈলীর ওভাররাইড করতে দেয়। এই বিকল্পটি অক্ষম করা মডিউলটিকে ডিফল্ট থিম শৈলীতে ফের সংযুক্ত করবে।",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "ডিফল্ট শৈলী ওভাররাইড করুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>প্রযুক্তি শিল্পে জোশুয়ার 20 বছরেরও বেশি অভিজ্ঞতা রয়েছে। মানুষের বৃদ্ধিতে সহায়তা করার মিশনে তিনি 2015 সালে এই সংস্থাটি শুরু করতে সহায়তা করেছিলেন। অবসর সময়ে তিনি তার বাচ্চাদের সাথে বেড়াতে, সৈকতে যেতে এবং রান্না করতে পছন্দ করেন।</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "প্রোফাইল বায়ো",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "প্রোফাইল ছবি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "জশুয়া বেক",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "প্রোফাইল নাম",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "সি ই ও, সহ-প্রতিষ্ঠাতা",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "প্রোফাইল পজিশন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "পটভূমির রঙ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "স্টাইলের বিকল্পগুলি",
+    "description" : "",
+    "placeholders" : null
+  }
+}

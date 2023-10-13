@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Szerző",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Leírás",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Kiemelt kép",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kártya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Lista",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Elrendezés stílusa",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blogbejegyzések",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Bejegyzés címe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Közzététel dátuma",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "További információ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "További információ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "További információ szöveg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Címkék",
+    "description" : "",
+    "placeholders" : null
+  }
+}

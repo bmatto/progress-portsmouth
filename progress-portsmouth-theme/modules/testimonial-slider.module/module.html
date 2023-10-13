@@ -1,0 +1,44 @@
+<div class="slider-container" id="slider-container--{{ name }}">
+    {% for testimonial in module.testimonial_slider %}
+      <div>
+        <div class="testimonial">
+          <blockquote class="testimonial__content">
+            {{ testimonial.content }}
+            <cite class="testimonial__author__name">
+              {{ testimonial.author.author_name }}
+            </cite>
+          </blockquote>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+
+{% if module.style.override_default_style %}
+  {% require_css %}
+    <style>
+      #slider-container--{{ name }} .tns-nav button {
+        background-color: {{ module.style.navigation_color.color }};
+      }
+      #slider-container--{{ name }} .tns-nav button.tns-nav-active,
+      #slider-container--{{ name }} .tns-nav button:hover,
+      #slider-container--{{ name }} .tns-nav button:focus {
+        background-color: {{ module.style.navigation_active_color.color }};
+      }
+    </style>
+  {% end_require_css %}
+{% endif %}
+
+{% require_js %}
+<script>
+var slider = tns({
+  container: '#slider-container--{{ name }}',
+  items: 1,
+  slideBy: 1,
+  autoplay: false,
+  navPosition: 'bottom',
+  controls: false,
+  arrowKeys: true,
+  mouseDrag: true,
+});
+</script>
+{% end_require_js %}

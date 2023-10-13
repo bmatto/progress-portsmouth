@@ -1,0 +1,31 @@
+.profile {
+  margin-bottom: 1.4rem;
+}
+
+.profile__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.profile__description {
+  background-color: #fbf7f1;
+  margin-top: -4.2em;
+  padding: 5.6rem 1.4rem 1.4rem;
+}
+
+.profile__description--no-image {
+  margin-top: 0;
+}
+
+.profile__name {
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  margin-bottom: 0.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.profile__position {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "categories" : [ "social" ],
+  "icon" : "../../../mV0_d-cms-vitality-theme_hubspot/vitality/images/module-icons/social-posts.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 137071157166,
+  "label" : "Social follow",
+  "is_available_for_new_content" : true
+}

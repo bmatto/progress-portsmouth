@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Разбивка блога на страницы",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Далее",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Следующий текст",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Назад",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Предыдущий текст",
+    "description" : "",
+    "placeholders" : null
+  }
+}

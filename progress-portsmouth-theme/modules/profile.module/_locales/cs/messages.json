@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Pokud povolíte tuto možnost, budete moci přepsat výchozí styly motivů. Zakázáním této možnosti se modul připojí zpět k výchozím stylům motivů.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Přepsat výchozí styl",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshua pracuje v technologickém průmyslu více než 20 let. V roce 2015 stál u zrodu této společnosti a chtěl pomoct lidem růst. Svůj volný čas rád tráví se svými dětmi, chodí na pláž a vaří.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Životopis profilu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Profilový obrázek",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Profilové jméno",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "Generální ředitel, spoluzakladatel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Umístění profilu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Barva pozadí",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Možnosti stylů",
+    "description" : "",
+    "placeholders" : null
+  }
+}

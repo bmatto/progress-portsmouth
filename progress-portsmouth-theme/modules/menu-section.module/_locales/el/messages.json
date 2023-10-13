@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Ενότητα μενού",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Πρωτεύον πεδίο μενού",
+    "description" : "",
+    "placeholders" : null
+  }
+}

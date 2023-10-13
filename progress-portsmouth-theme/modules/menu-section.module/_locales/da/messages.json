@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Menuafsnit",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Primært menufelt",
+    "description" : "",
+    "placeholders" : null
+  }
+}

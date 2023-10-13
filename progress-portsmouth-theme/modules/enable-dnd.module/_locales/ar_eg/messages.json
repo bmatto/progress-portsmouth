@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>سيسمح لك تمكين هذه الميزة بتعديل التذييل الخاص بك عن طريق السحب والإفلات.<br/><br/> وبمجرد تمكينها، ستتم إعادة تعيين المحتوى إلى حالته الافتراضية. <b>لاستعادة المحتوى السابق الخاص بك، فقط قم بتعطيل السحب والإفلات.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "تمكين السحب والإفلات",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "تمكين السحب والإفلات",
+    "description" : "",
+    "placeholders" : null
+  }
+}

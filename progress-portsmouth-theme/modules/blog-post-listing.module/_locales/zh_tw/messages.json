@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "最近的文章",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "標題文字",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "部落格文章清單",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "啟用此選項可以覆寫預設主題樣式。停用此選項會將模組重新連結預設主題樣式。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "覆寫預設樣式",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "選取部落格",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "熱門貼文",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "最近的貼文",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "選取部落格類型",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "背景顏色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "樣式選項",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "文字顏色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "檢視全部",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "檢視全部按鈕文字",
+    "description" : "",
+    "placeholders" : null
+  }
+}

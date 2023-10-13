@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "المؤلف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "الوصف",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "الصورة المميزة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "البطاقة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "القائمة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "نمط التخطيط",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "قائمة المدونة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "عنوان المنشور",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "تاريخ النشر",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "قراءة المزيد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "قراءة المزيد",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "قراءة المزيد من النصوص",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "العلامات",
+    "description" : "",
+    "placeholders" : null
+  }
+}

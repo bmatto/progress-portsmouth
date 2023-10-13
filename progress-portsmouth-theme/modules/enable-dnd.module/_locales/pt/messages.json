@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Ativar este recurso permitirá que você edite seu rodapé pelo modo arrastar e soltar.<br/><br/>Depois de ativado, o conteúdo será redefinido para seu estado padrão. <b>Para recuperar seu conteúdo anterior, basta desativar o modo arrastar e soltar.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Ativar arrastar e soltar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Ativar arrastar e soltar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

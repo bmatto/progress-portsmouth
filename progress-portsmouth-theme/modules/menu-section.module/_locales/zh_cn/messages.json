@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "菜单部分",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "主要菜单字段",
+    "description" : "",
+    "placeholders" : null
+  }
+}

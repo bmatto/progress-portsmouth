@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Penomoran Halaman Blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Berikutnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Teks berikutnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Sebelumnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Teks sebelumnya",
+    "description" : "",
+    "placeholders" : null
+  }
+}

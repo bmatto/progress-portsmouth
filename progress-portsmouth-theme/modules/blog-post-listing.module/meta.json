@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "categories" : [ "blog" ],
+  "icon" : "../../../mV0_d-cms-vitality-theme_hubspot/vitality/images/module-icons/list-view.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 137071117336,
+  "label" : "Blog post listing",
+  "is_available_for_new_content" : true
+}

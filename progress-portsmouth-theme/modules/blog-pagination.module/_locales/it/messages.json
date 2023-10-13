@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Impaginazione blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Avanti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Testo successivo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Indietro",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Testo precedente",
+    "description" : "",
+    "placeholders" : null
+  }
+}

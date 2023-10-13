@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Blogpaginering",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Volgende",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Volgende tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Vorige",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Vorige tekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

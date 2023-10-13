@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "บทความล่าสุด",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "ข้อความส่วนหัว",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "รายการโพสต์ในบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "การเปิดใช้ตัวเลือกนี้จะช่วยให้คุณสามารถแทนที่รูปแบบธีมค่าเริ่มต้นได้ การปิดใช้ตัวเลือกนี้จะเชื่อมต่อโมดูลกลับไปเป็นรูปแบบธีมค่าเริ่มต้นอีกครั้ง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "แทนที่รูปแบบค่าเริ่มต้น",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "เลือกบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "โพสต์ยอดนิยม",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "โพสต์ล่าสุด",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "เลือกประเภทบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "สีพื้นหลัง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "ตัวเลือกรูปแบบ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "สีข้อความ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "ดูทั้งหมด",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "ดูข้อความบนปุ่มทั้งหมด",
+    "description" : "",
+    "placeholders" : null
+  }
+}

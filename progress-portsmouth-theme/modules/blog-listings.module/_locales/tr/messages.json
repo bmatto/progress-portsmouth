@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "Yazar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "Açıklama",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "Öne çıkarılan görüntü",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "Kart",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "Liste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "Düzen stili",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blog listeleri",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "Gönderi başlığı",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "Yayın tarihi",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "Daha fazlasını okuyun",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "Daha fazlasını oku",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "Daha fazla metin oku",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "Etiketler",
+    "description" : "",
+    "placeholders" : null
+  }
+}

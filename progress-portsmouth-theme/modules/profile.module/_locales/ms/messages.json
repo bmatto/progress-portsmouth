@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "Profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "Pendayaan pilihan ini akan membenarkan anda menggantikan gaya tema lalai. Penyahdayaan pilihan ini akan menyambungkan semula modul kepada gaya tema lalai.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "Mengatasi gaya lalai",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshua mempunyai lebih daripada 20 tahun pengalaman dalam industri teknologi. Beliau telah membantu memulakan syarikat ini pada tahun 2015 dengan misi untuk membantu perkembangan orang. Pada masa lapang, beliau suka meluangkan masa bersama anak-anaknya, pergi ke pantai dan memasak.</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "Bio profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "Imej profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "Nama profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "CEO, Pengasas Bersama",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "Jawatan profil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "Warna latar belakang",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "Pilihan gaya",
+    "description" : "",
+    "placeholders" : null
+  }
+}

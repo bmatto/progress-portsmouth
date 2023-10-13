@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "โปรไฟล์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "การเปิดใช้ตัวเลือกนี้จะช่วยให้คุณสามารถแทนที่รูปแบบธีมค่าเริ่มต้นได้ การปิดใช้ตัวเลือกนี้จะเชื่อมต่อโมดูลกลับไปเป็นรูปแบบธีมค่าเริ่มต้นอีกครั้ง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "แทนที่รูปแบบค่าเริ่มต้น",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.default" : {
+    "message" : "<p>Joshua Beck มีประสบการณ์มากกว่า 20 ปีในอุตสาหกรรมเทคโนโลยี เขาช่วยก่อตั้งบริษัทนี้ในปี 2015 ด้วยพันธกิจที่ต้องการช่วยให้ผู้คนเติบโต ในเวลาว่าง เขาชอบออกไปเที่ยวกับลูกๆ ไปเที่ยวทะเล และทำอาหาร</p>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_bio.label" : {
+    "message" : "ประวัติในโปรไฟล์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_image.label" : {
+    "message" : "รูปโปรไฟล์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.default" : {
+    "message" : "Joshua Beck",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_name.label" : {
+    "message" : "ชื่อโปรไฟล์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.default" : {
+    "message" : "ประธานเจ้าหน้าที่บริหารและผู้ร่วมก่อตั้ง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "profile_position.label" : {
+    "message" : "ตำแหน่งโปรไฟล์",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "สีพื้นหลัง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "ตัวเลือกรูปแบบ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

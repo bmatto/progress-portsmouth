@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Ak povolíte túto funkciu, pätu budete môcť upraviť presunutím myšou.<br/><br/>Po povolení sa obsah obnoví na východiskový stav.<b>Ak chcete obnoviť prechádzajúci obsah, jednoducho funkciu presúvania myšou vypnite.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Povoliť presúvanie myšou",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Povoliť presúvanie myšou",
+    "description" : "",
+    "placeholders" : null
+  }
+}

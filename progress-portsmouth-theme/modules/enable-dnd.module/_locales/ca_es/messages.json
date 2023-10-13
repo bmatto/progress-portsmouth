@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Si habilites aquesta característica, podràs editar el peu de pàgina amb la funció d'arrossegar i deixar anar.<br/><br/>Un cop habilitada, el contingut es restablirà a l'estat per defecte. <b>Per recuperar el contingut anterior, habilita la funció d'arrossegar i deixar anar.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Habilita la funció d'arrossegar i deixar anar",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Habilita la funció d'arrossegar i deixar anar",
+    "description" : "",
+    "placeholders" : null
+  }
+}

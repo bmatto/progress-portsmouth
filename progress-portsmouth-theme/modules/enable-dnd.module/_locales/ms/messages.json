@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Pendayaan ciri ini akan membenarkan anda untuk mengedit pengaki anda dengan seret dan lepas.<br/><br/>Selepas didayakan, kandungan akan diset semula kepada keadaan lalainya. <b>Untuk memulihkan kandungan terdahulu anda, hanya menyahdayakan seret dan lepas.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Dayakan seret dan lepas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Dayakan seret dan lepas",
+    "description" : "",
+    "placeholders" : null
+  }
+}

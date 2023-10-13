@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Dengan mengaktifkan fitur ini Anda dapat mengedit catatan kaki Anda dengan tarik and letakkan.<br/><br/>Setelah diaktifkan, konten akan disetel ulang ke status awalnya. <b>Untuk memulihkan konten Anda sebelumnya, cukup nonaktifkan tarik dan letakkan.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Aktifkan tarik dan letakkan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Aktifkan tarik dan letakkan",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Pokud povolíte tuto funkci, budete zápatí moci upravovat přetažením.<br/><br/>Jakmile funkci povolíte, obsah se obnoví do výchozího stavu. <b>Předchozí obsah můžete obnovit tak, že funkci přetahování zakážete.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Povolit funkci přetahování",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Povolit funkci přetahování",
+    "description" : "",
+    "placeholders" : null
+  }
+}

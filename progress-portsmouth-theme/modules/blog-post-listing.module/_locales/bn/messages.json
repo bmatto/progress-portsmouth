@@ -1,0 +1,72 @@
+{
+  "heading_text.default" : {
+    "message" : "সাম্প্রতিক লেখাসমূহ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "heading_text.label" : {
+    "message" : "হেডিং পাঠ্য",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ব্লগ পোস্ট তালিকা",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "এই বিকল্পটি সক্ষম করা আপনাকে ডিফল্ট থিম শৈলীর ওভাররাইড করতে দেয়। এই বিকল্পটি অক্ষম করা মডিউলটিকে ডিফল্ট থিম শৈলীতে ফের সংযুক্ত করবে।",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "ডিফল্ট শৈলী ওভাররাইড করুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog.label" : {
+    "message" : "ব্লগ নির্বাচন করুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.popular_posts" : {
+    "message" : "জনপ্রিয় পোস্টগুলি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.choices.recent_posts" : {
+    "message" : "সাম্প্রতিক পোস্টগুলি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "select_blog_type.label" : {
+    "message" : "ব্লগ টাইপ নির্বাচন করুন",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.background_color.label" : {
+    "message" : "পটভূমির রঙ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "স্টাইলের বিকল্পগুলি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.text_color.label" : {
+    "message" : "টেক্সটের রঙ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.default" : {
+    "message" : "দেখান ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "view_all_button_text.label" : {
+    "message" : "সমস্ত বোতাম পাঠ্য দেখুন",
+    "description" : "",
+    "placeholders" : null
+  }
+}

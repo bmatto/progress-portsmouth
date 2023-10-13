@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Meniu skirsnis",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Pagrindinis meniu laukas",
+    "description" : "",
+    "placeholders" : null
+  }
+}

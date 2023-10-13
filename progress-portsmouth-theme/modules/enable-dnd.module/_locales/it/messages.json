@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>L'abilitazione di questa funzionalità consentirà di modificare il piè di pagina con il drag-and-drop.<br/><br/>Una volta abilitata, il contenuto verrà ripristinato al suo stato predefinito. <b>Per recuperare i contenuti precedenti, disabilita il drag-and-drop.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Abilita drag-and-drop",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Abilita drag-and-drop",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,16 @@
+/* Tables */
+
+table {
+  border: 1px solid #000;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  vertical-align: top;
+}
+
+thead th {
+  vertical-align: bottom;
+}

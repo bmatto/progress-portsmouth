@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Oštevilčenje strani",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Naprej",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Naslednje besedilo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Prejšnja",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Predhodno besedilo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

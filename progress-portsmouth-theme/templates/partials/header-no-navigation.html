@@ -1,0 +1,36 @@
+<!--
+  templateType: global_partial
+  label: Landing page header
+-->
+<header class="header header--landing-page">
+  {# Top dnd area #}
+  {% dnd_area "header_dnd_top_no_nav"
+    label="Top header",
+    class="header__dnd--top" %}
+  {% end_dnd_area %}
+  {# End top dnd area #}
+
+  <div class="header__container">
+    {# Logo #}
+    <div class="header__logo">
+      {% module "header_logo"
+        path="@hubspot/logo",
+        img={
+          "alt": "Vitality logo",
+          "height": "104",
+          "override_inherited_src": true,
+          "src": get_asset_url("../../images/vitality-theme-logo.png"),
+          "width": "502",
+          "loading": "eager"
+        } %}
+    </div>
+    {# End logo #}
+  </div>
+
+  {# Bottom dnd area #}
+  {% dnd_area "header_dnd_bottom_no_nav"
+    label="Bottom header",
+    class="header__dnd--bottom" %}
+  {% end_dnd_area %}
+  {# End bottom dnd area #}
+</header>

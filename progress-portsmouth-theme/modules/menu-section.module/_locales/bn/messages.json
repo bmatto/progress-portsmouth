@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "মেনু বিভাগ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "প্রাথমিক মেনু ক্ষেত্র",
+    "description" : "",
+    "placeholders" : null
+  }
+}

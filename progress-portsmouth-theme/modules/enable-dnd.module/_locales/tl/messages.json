@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>Magbibigay daan sa iyo ang pag-enable sa feature na ito na i-edit ang iyong footer gamit ang drag and drop.<br/><br/>Kapag na-enable ito, mare-reset ang content nito sa default na estado. <b>I-disable lang ang drag and drop para mabalik ang iyong dating content.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "I-enable ang drag and drop",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "I-enable ang drag and drop",
+    "description" : "",
+    "placeholders" : null
+  }
+}

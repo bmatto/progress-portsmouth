@@ -1,0 +1,62 @@
+{
+  "name" : {
+    "message" : "お客さまからの評価のスライダー",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.help_text" : {
+    "message" : "このオプションをオンにすると、既定のテーマスタイルから変更できます。このオプションをオフにすると、モジュールの適用元が既定のテーマスタイルに戻ります。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_default_style.label" : {
+    "message" : "既定のスタイルよりも優先使用",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.label" : {
+    "message" : "スタイルオプション",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.navigation_active_color.label" : {
+    "message" : "ナビゲーションの有効色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "style.navigation_color.label" : {
+    "message" : "ナビゲーションの色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.author.author_name.default" : {
+    "message" : "Lori Hahn",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.author.author_name.label" : {
+    "message" : "執筆者の名前",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.author.label" : {
+    "message" : "執筆者",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.content.default" : {
+    "message" : "ここにテキストが入ります、---ここにテキストが入ります、---ここにテキストが入ります。---ここにテキストが入ります、---ここにテキストが入ります。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.content.label" : {
+    "message" : "お客さまからの評価のテキスト",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial_slider.label" : {
+    "message" : "お客さまからの評価",
+    "description" : "",
+    "placeholders" : null
+  }
+}

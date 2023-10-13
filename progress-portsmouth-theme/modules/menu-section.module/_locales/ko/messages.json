@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "메뉴 섹션",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "기본 메뉴 필드",
+    "description" : "",
+    "placeholders" : null
+  }
+}

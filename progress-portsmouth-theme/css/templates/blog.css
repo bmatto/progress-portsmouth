@@ -1,0 +1,337 @@
+/* Blog */
+
+/* Blog Container */
+
+.body-container--blog-index,
+.body-container--blog-post {
+  padding: 4.2rem 0;
+}
+
+/* Blog Listing */
+
+.blog-post {
+  position: relative;
+}
+
+.blog-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-index__post {
+  margin-bottom: 4.2rem;
+}
+
+.blog-index__post--card {
+  width: calc(50% - 1.55rem);
+}
+
+@media (max-width: 767px) {
+  .blog-index__post--card {
+    width: 100%;
+  }
+}
+
+.blog-index__post--list {
+  display: flex;
+  width: 100%;
+}
+
+.blog-index__post-image--card {
+  height: auto;
+  width: 100%;
+}
+
+.blog-index__post-content--card {
+  padding: 1.55rem;
+}
+
+.blog-index__post-image-wrapper--list,
+.blog-index__post-content--list {
+  width: 50%;
+}
+
+.blog-index__post-image-wrapper--list {
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .blog-index__post-image-wrapper--list {
+    height: 300px;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.blog-index__post-image--list {
+  height: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.blog-index__post-content--list {
+  margin-left: 30px;
+}
+
+.blog-index__post-content--list.blog-index__post-content--no-image {
+  margin-left: 0;
+}
+
+.blog-index__post-tags {
+  margin-bottom: 1.4rem;
+}
+
+.blog-index__post-tag-link {
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blog-index__post-author-name,
+.blog-index__post-date {
+  display: block;
+  margin-bottom: 1.55rem;
+}
+
+@media (max-width: 767px) {
+  .blog-index__post--list {
+    flex-wrap: wrap;
+  }
+
+  .blog-index__post-image-wrapper--list,
+  .blog-index__post-content--list {
+    width: 100%;
+  }
+
+  .blog-index__post-image-wrapper--list {
+    margin-right: 0;
+  }
+
+  .blog-index__post-content--list {
+    margin-left: 0;
+  }
+}
+
+/* Blog Pagination */
+
+.blog-pagination {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+  text-align: center;
+}
+
+.blog-pagination__link {
+  display: inline-flex;
+  margin: 0 0.1rem;
+  padding: 0.25rem 0.6rem;
+  text-decoration: none;
+}
+
+.blog-pagination__link--active,
+.blog-pagination__prev-link,
+.blog-pagination__next-link {
+  position: relative;
+}
+
+.blog-pagination__link--active:after,
+.blog-pagination__prev-link:after,
+.blog-pagination__next-link:after {
+  background-color: #e73335;
+  bottom: -3px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.blog-pagination__link:hover,
+.blog-pagination__link:focus {
+  text-decoration: none;
+}
+
+.blog-pagination__prev-link,
+.blog-pagination__next-link {
+  align-items: center;
+  display: inline-flex;
+}
+
+.blog-pagination__prev-link {
+  margin-right: 0.25rem;
+  text-align: right;
+}
+.blog-pagination__next-link {
+  margin-left: 0.25rem;
+  text-align: left;
+}
+
+.blog-pagination .blog-pagination__prev-link--disabled,
+.blog-pagination .blog-pagination__next-link--disabled {
+  color: #d0d0d0;
+  cursor: default;
+  pointer-events: none;
+}
+
+.blog-pagination .blog-pagination__prev-link--disabled:after,
+.blog-pagination .blog-pagination__next-link--disabled:after {
+  background-color: #d0d0d0;
+}
+
+/* Blog Post */
+
+.blog-post__header {
+  margin-bottom: 1.4rem;
+}
+
+.blog-post__title {
+  font-size: 45px;
+}
+
+.blog-post__tags {
+  margin-bottom: 0.7rem;
+}
+
+.blog-post__tag-link {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  letter-spacing: 0.38rem;
+  margin-right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blog-tag-filter__menu-link--active-item:after {
+  background-color: #e73335;
+}
+
+.blog-post__tag-link:hover,
+.blog-post__tag-link:focus,
+.blog-post__tag-link:active {
+  text-decoration: none;
+}
+
+.blog-post__meta {
+  margin-bottom: 1.4rem;
+}
+
+.blog-post__date {
+  border-color: #231f1f;
+  border-right: 2px solid;
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.blog-post__author-name:hover,
+.blog-post__author-name:focus,
+.blog-post__author-name:active {
+  text-decoration: none;
+}
+
+.body-container--blog-post .featured-image {
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+.blog-post__body img {
+  max-width: 100%;
+}
+
+.comment {
+  padding-top: 2em;
+}
+
+#comments-listing .comment-reply-to {
+  background-position: 20px;
+  background-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #e73335;
+  padding-left: 50px;
+}
+
+#comments-listing .comment-reply-to:hover,
+#comments-listing .comment-reply-to:focus,
+#comments-listing .comment-reply-to:active {
+  background-color: transparent;
+  border: none;
+}
+
+#comments-listing .comment-reply-to:hover,
+#comments-listing .comment-reply-to:focus {
+  color: #bf0b0d;
+}
+
+#comments-listing .comment-reply-to:active {
+  color: #ff5b5d;
+}
+
+@media screen and (min-width: 1300px) {
+  .blog-post__social-sharing .social-links {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .blog-post__social-sharing {
+    left: -7rem;
+    margin-bottom: 0;
+    position: absolute;
+    text-align: left;
+    top: 9rem;
+  }
+}
+
+.blog-post__author {
+  align-items: center;
+  background-color: #fbf7f1;
+  display: flex;
+  margin-bottom: 2.8rem;
+  padding: 2.8rem;
+}
+
+.blog-post__author-image {
+  border-radius: 50%;
+  margin-right: 80px;
+  width: 25%;
+}
+
+.blog-post__author-about {
+  width: 75%;
+}
+
+@media (max-width: 767px) {
+  .blog-post__author {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .blog-post__author-image {
+    margin-bottom: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+  }
+
+  .blog-post__author-image,
+  .blog-post__author-about {
+    width: 100%;
+  }
+}
+
+/* Account for internet explorer */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .blog-index__post-image-wrapper--list {
+    align-items: stretch;
+  }
+}

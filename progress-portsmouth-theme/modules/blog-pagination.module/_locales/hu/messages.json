@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "A blog lapszámozása",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Következő",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Következő szöveg",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Előző",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Előző szöveg",
+    "description" : "",
+    "placeholders" : null
+  }
+}

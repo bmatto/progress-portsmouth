@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Sidetal i blog",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Næste",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Næste tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Forrige",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Forrige tekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

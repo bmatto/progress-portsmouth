@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "ส่วนเมนู",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "ช่องเมนูหลัก",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{% icon
+  extra_classes='icon'
+  name='{{ module.icon_field.name }}'
+  purpose='{{ module.accessibility.purpose }}'
+  style='{{ module.icon_field.type }}'
+  title='{{ module.accessibility.title }}'
+  unicode='{{ module.icon_field.unicode }}'
+%}
+
+{% require_css %}
+<style>
+  #hs_cos_wrapper_{{ name }} .icon svg {
+    fill: {{ module.style.color.color }};
+    width: {{ module.style.size }}px;
+  }
+</style>
+{% end_require_css %}

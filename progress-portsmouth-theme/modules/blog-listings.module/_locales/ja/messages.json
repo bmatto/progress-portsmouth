@@ -1,0 +1,67 @@
+{
+  "author.label" : {
+    "message" : "執筆者",
+    "description" : "",
+    "placeholders" : null
+  },
+  "description.label" : {
+    "message" : "説明",
+    "description" : "",
+    "placeholders" : null
+  },
+  "featured_image.label" : {
+    "message" : "キービジュアル",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.card" : {
+    "message" : "カード",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.choices.list" : {
+    "message" : "リスト",
+    "description" : "",
+    "placeholders" : null
+  },
+  "layout_style.label" : {
+    "message" : "レイアウトのスタイル",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ブログリスト",
+    "description" : "",
+    "placeholders" : null
+  },
+  "post_title.label" : {
+    "message" : "投稿のタイトル",
+    "description" : "",
+    "placeholders" : null
+  },
+  "publish_date.label" : {
+    "message" : "公開日",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more.label" : {
+    "message" : "続きを読む",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.default" : {
+    "message" : "続きを読む",
+    "description" : "",
+    "placeholders" : null
+  },
+  "read_more_text.label" : {
+    "message" : "続きを読むためのテキスト",
+    "description" : "",
+    "placeholders" : null
+  },
+  "tags.label" : {
+    "message" : "タグ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

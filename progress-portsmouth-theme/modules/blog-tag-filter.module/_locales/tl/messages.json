@@ -1,0 +1,17 @@
+{
+  "all_articles_text.default" : {
+    "message" : "Lahat ng Artikulo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "all_articles_text.label" : {
+    "message" : "Lahat ng text ng artikulo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Blog Tag Filter",
+    "description" : "",
+    "placeholders" : null
+  }
+}

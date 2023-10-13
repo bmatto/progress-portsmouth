@@ -1,0 +1,17 @@
+{
+  "enable_dnd.inline_help_text" : {
+    "message" : "<br/>L'activation de cette fonctionnalité vous permettra de modifier votre pied de page avec le glisser-déposer.<br/><br/>Une fois cette fonction activée, le contenu retrouvera son état par défaut. <b>Pour récupérer votre contenu précédent, désactivez simplement le glisser-déposer.</b>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "enable_dnd.label" : {
+    "message" : "Activer glisser-déposer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Activer glisser-déposer",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,92 @@
+[ {
+  "id" : "profile_image",
+  "name" : "profile_image",
+  "display_width" : null,
+  "label" : "Profile image",
+  "required" : true,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : true,
+  "type" : "image",
+  "default" : {
+    "alt" : "",
+    "loading" : "disabled",
+    "src" : ""
+  }
+}, {
+  "id" : "profile_name",
+  "name" : "profile_name",
+  "display_width" : null,
+  "label" : "Profile name",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Joshua Beck"
+}, {
+  "id" : "profile_position",
+  "name" : "profile_position",
+  "display_width" : null,
+  "label" : "Profile position",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CEO, Co-Founder"
+}, {
+  "id" : "profile_bio",
+  "name" : "profile_bio",
+  "display_width" : null,
+  "label" : "Profile bio",
+  "required" : true,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Joshua has over 20 years of experience in the tech industry. He helped start this company in 2015 with the mission of helping people grow. In his spare time he loves hanging out with his kids, going to the beach, and cooking.</p>"
+}, {
+  "id" : "override_default_style",
+  "name" : "override_default_style",
+  "display_width" : null,
+  "label" : "Override default style",
+  "help_text" : "Enabling this option will allow you to override default theme styles. Disabling this option will reconnect the module back to the default theme styles.",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "style",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style options",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "override_default_style",
+    "controlling_field_path" : null,
+    "controlling_value_regex" : "true",
+    "property" : null,
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "style.background_color",
+    "name" : "background_color",
+    "display_width" : null,
+    "label" : "Background color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#FBF7F1",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group"
+} ]

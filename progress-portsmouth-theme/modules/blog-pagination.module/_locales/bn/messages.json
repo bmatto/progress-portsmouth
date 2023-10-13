@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "ব্লগ পৃষ্ঠা ক্রম",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "পরবর্তী",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "পরবর্তী পাঠ্য",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "পূর্ববর্তী",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "পূর্ববর্তী পাঠ্য",
+    "description" : "",
+    "placeholders" : null
+  }
+}

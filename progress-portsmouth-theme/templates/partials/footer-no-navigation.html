@@ -1,0 +1,63 @@
+<!--
+  templateType: global_partial
+  label: Landing page footer
+-->
+<footer class="footer footer--landing-page">
+
+  {% module 'enable_footer_dnd_no_nav'
+    path='../../modules/enable-dnd',
+    label='Drag and drop',
+    export_to_template_context=true,
+    no_wrapper=true
+  %}
+
+  {% if widget_data.enable_footer_dnd_no_nav.enable_dnd %}
+
+    {# Drag and drop footer #}
+    {% dnd_area 'footer_dnd_no_nav'
+      label='Footer',
+      class='footer__container footer__container--dnd'
+    %}
+      {% dnd_section %}
+        {% dnd_column %}
+          {% dnd_row %}
+
+          {# Copyright #}
+          {% dnd_module
+            path='@hubspot/rich_text',
+            label='Copyright'
+          %}
+            {% module_attribute 'html' %}
+              <p style="text-align: center;">Copyright © {{ year }} {{ site_settings.company_name }}. All Rights Reserved. <a href="#">Privacy Policy</a>. <a href="#">Terms and Conditions</a>.</p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+          {# End copyright #}
+
+          {% end_dnd_row %}
+        {% end_dnd_column %}
+      {% end_dnd_section %}
+    {% end_dnd_area %}
+    {# End drag and drop footer #}
+
+  {% else %}
+
+    {# Static footer #}
+    <div class="footer__container footer__container--static">
+
+      {# Copyright #}
+      {% module_block module 'footer_copyright'
+        path='@hubspot/rich_text',
+        label='Copyright'
+      %}
+        {% module_attribute 'html' %}
+          <p>Copyright © {{ year }} {{ site_settings.company_name }}. All Rights Reserved. <a href="#">Privacy Policy</a>. <a href="#">Terms and Conditions</a>.</p>
+        {% end_module_attribute %}
+      {% end_module_block %}
+      {# End copyright #}
+
+    </div>
+    {# End static footer #}
+
+  {% endif %}
+
+</footer>

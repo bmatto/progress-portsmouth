@@ -1,0 +1,27 @@
+{
+  "name" : {
+    "message" : "Нумерація сторінок блогу",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.default" : {
+    "message" : "Далі",
+    "description" : "",
+    "placeholders" : null
+  },
+  "next_text.label" : {
+    "message" : "Наступний текст",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.default" : {
+    "message" : "Попередн.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "prev_text.label" : {
+    "message" : "Попередній текст",
+    "description" : "",
+    "placeholders" : null
+  }
+}

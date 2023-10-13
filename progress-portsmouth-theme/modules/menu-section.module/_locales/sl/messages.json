@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Razdelek menija",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Polje primarnega menija",
+    "description" : "",
+    "placeholders" : null
+  }
+}

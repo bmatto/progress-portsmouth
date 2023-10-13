@@ -1,0 +1,20 @@
+<!--
+  templateType: email_subscription_preferences_page
+  isAvailableForNewContent: true
+  label: Vitality - email subscription preferences
+  screenshotPath: ../../images/template-previews/subscriptions-preferences.png
+-->
+{% set template_css = '../../css/templates/system.css' %}
+{% extends '../layouts/base.html' %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  <section class="content-wrapper">
+    <div class="systems-page">
+      {% module 'subscription_preferences'
+        path='@hubspot/email_subscriptions'
+      %}
+    </div>
+  </section>
+</main>
+{% endblock body %}

@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Valikko-osio",
+    "description" : "",
+    "placeholders" : null
+  },
+  "primary_menu_field.label" : {
+    "message" : "Ensisijainen valikkokenttä",
+    "description" : "",
+    "placeholders" : null
+  }
+}
