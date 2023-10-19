@@ -7,7 +7,6 @@ import {
   CardMedia,
   CssBaseline,
   Grid,
-  Stack,
   Box,
   Typography,
   Container,
