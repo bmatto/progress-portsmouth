@@ -29,11 +29,7 @@ export default function YouTubePlayerIsland({ startTimes }) {
         videoId={`T0ylrqsE_jM`}
         onReady={setOpeningStartTimeOnReady}
       />
-      <Stack
-        direction="row"
-        spacing={2}
-        divider={<Divider orientation="vertical" flexItem />}
-      >
+      <Stack spacing={2} divider={<Divider orientation="vertical" flexItem />}>
         {startTimes.map((startTime) => {
           return (
             <Link

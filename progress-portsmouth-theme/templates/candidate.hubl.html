@@ -9,13 +9,18 @@
 {% if dynamic_page_hubdb_row %}
 
   {% module
-    "candidates"
+    "candidate_detail"
     path="@projects/progress-portsmouth-project/progress-portsmouth-app/components/modules/CandidateDetail"
   %}
 
+  {% module
+  "candidate_night_video"
+  path="@projects/progress-portsmouth-project/progress-portsmouth-app/components/modules/CandidateNightVideo"
+%}
+
 {% elif dynamic_page_hubdb_table_id %}
   <ul>
-  {% for row in hubdb_table_rows(dynamic_page_hubdb_table_id) %}
+  {% for row in hubdb_table_rows(dynamic_page_hubdb_table_id) %}`
       <li><a href="{{ request.path }}/{{ row.hs_path }}">{{ row.hs_name }}</a></li>
   {% endfor %}
   </ul>
