@@ -11,7 +11,9 @@ import {
   CardMedia,
 } from '@mui/material';
 
-import { logInfo } from '@hubspot/cms-components';
+import { logInfo, Island } from '@hubspot/cms-components';
+
+import YouTubePlayerIsland from './YouTubePlayerIsland?island';
 
 // TODO remove, this demo shouldn't need to reset the theme.
 // const defaultTheme = createTheme();
@@ -37,6 +39,20 @@ query CandidateQuery($path: String! = "josh-denton") {
       bio
       incumbent
     }
+    candidate_night_2023_collection {
+      items {
+        start_time
+        question
+        associations {
+          candidates_collection__candidate {
+            items {
+              hs_id
+              hs_path
+            }
+          }
+        }
+      }
+    }
     candidate_social_links_collection {
       items {
         platform
@@ -61,6 +77,8 @@ export const Component = (props) => {
   const candidateHSID = candidate.hs_id;
   const socialLinks =
     props.dataQueryResult.data.HUBDB.candidate_social_links_collection.items;
+  const startTimes =
+    props.dataQueryResult.data.HUBDB.candidate_night_2023_collection.items;
 
   const filteredSocialLinks = socialLinks.filter((link) => {
     return (
@@ -69,15 +87,18 @@ export const Component = (props) => {
     );
   });
 
-  // logInfo(candidate);
-  // logInfo(candidate.video);
-  // logInfo(usePageUrl());
+  const candidateStartTimes = startTimes.filter((time) => {
+    return (
+      time.associations.candidates_collection__candidate.items[0]?.hs_id ===
+      candidateHSID
+    );
+  });
 
   return (
     <>
       <CssBaseline />
       <main>
-        <Container maxWidth="md">
+        <Container maxWidth="lg">
           <Box
             sx={{
               bgcolor: 'background.paper',
@@ -159,6 +180,21 @@ export const Component = (props) => {
                 </Card>
               </>
             )}
+            <Typography
+              sx={{ py: 3 }}
+              component="h2"
+              variant="h2"
+              align="center"
+              color="text.primary"
+            >
+              Candidate Night
+            </Typography>
+            {candidateStartTimes && (
+              <Island
+                module={YouTubePlayerIsland}
+                startTimes={candidateStartTimes}
+              />
+            )}
           </Box>
           <Stack
             direction="row"
@@ -168,7 +204,7 @@ export const Component = (props) => {
             {filteredSocialLinks.map((link) => {
               logInfo(link.link);
               return (
-                <Link key="link.link" target="_blank" href={link.link}>
+                <Link key={link.link} target="_blank" href={link.link}>
                   {link.platform ? link.platform.label : ''}
                 </Link>
               );
