@@ -1,17 +1,8 @@
 import * as React from 'react';
-import {
-  CssBaseline,
-  Box,
-  Typography,
-  Container,
-  Stack,
-  Link,
-  Divider,
-  Card,
-  CardMedia,
-} from '@mui/material';
+import { CssBaseline, Box, Typography, Container } from '@mui/material';
 
-import { logInfo, Island } from '@hubspot/cms-components';
+import { Island } from '@hubspot/cms-components';
+import { logInfoDebugOnly } from '@hubspot/cms-components';
 
 import YouTubePlayerIsland from './YouTubePlayerIsland?island';
 
@@ -24,12 +15,8 @@ export const meta = {
 };
 
 export const query = `
-# $path: "{{ dynamic_page_hubdb_row.hs_path }}"
-query CandidateQuery($path: String! = "josh-denton") {
+query CandidateQuery {
   HUBDB {
-    candidates(uniqueIdentifier: "hs_path", uniqueIdentifierValue: $path) {
-      hs_id
-    }
     candidate_night_2023_collection {
       items {
         start_time
@@ -37,7 +24,7 @@ query CandidateQuery($path: String! = "josh-denton") {
         associations {
           candidates_collection__candidate {
             items {
-              hs_id
+              hs_path
             }
           }
         }
@@ -45,20 +32,27 @@ query CandidateQuery($path: String! = "josh-denton") {
     }
   }
 }
-
 `;
 
 export const Component = (props) => {
-  const candidate = props.dataQueryResult.data.HUBDB.candidates;
-  const candidateHSID = candidate.hs_id;
+  const candidateHSPATH = props.hublParameters?.hs_path || 'josh-denton';
+
+  logInfoDebugOnly(props.hublParameters);
 
   const startTimes =
     props.dataQueryResult.data.HUBDB.candidate_night_2023_collection.items;
 
   const candidateStartTimes = startTimes.filter((time) => {
+    if (
+      time.associations === null ||
+      time.associations.candidates_collection__candidate.items === null
+    ) {
+      return false;
+    }
+
     return (
-      time.associations.candidates_collection__candidate.items[0]?.hs_id ===
-      candidateHSID
+      time.associations.candidates_collection__candidate.items[0]?.hs_path ===
+      candidateHSPATH
     );
   });
 
