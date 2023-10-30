@@ -157,8 +157,7 @@ export const Component = (props) => {
             <Box
               sx={{
                 bgcolor: 'background.paper',
-                pt: 8,
-                pb: 6,
+                py: 6,
               }}
               alignItems={'center'}
               display={'flex'}
@@ -185,8 +184,8 @@ export const Component = (props) => {
               <>
                 <Typography
                   sx={{ py: 3 }}
-                  component="h2"
-                  variant="h2"
+                  component="h3"
+                  variant="h3"
                   align="center"
                   color="text.primary"
                 >
@@ -206,6 +205,28 @@ export const Component = (props) => {
                     );
                   })}
                 </Stack>
+              </>
+            )}
+
+            {candidate.position_on_issues && (
+              <>
+                <Typography
+                  sx={{ py: 3 }}
+                  component="h3"
+                  variant="h3"
+                  align="center"
+                  color="text.primary"
+                >
+                  Position On Issues
+                </Typography>
+                <Box
+                  sx={{
+                    py: 3,
+                  }}
+                  dangerouslySetInnerHTML={{
+                    __html: candidate.position_on_issues,
+                  }}
+                />
               </>
             )}
           </Box>

@@ -2,6 +2,8 @@ import { Stack, Link, Divider } from '@mui/material';
 import { useRef } from 'react';
 import YouTube from 'react-youtube';
 
+import styles from './styles.module.css';
+
 const OPENING_STATEMENT = 'Opening Statement';
 
 export default function YouTubePlayerIsland({ startTimes }) {
@@ -28,6 +30,7 @@ export default function YouTubePlayerIsland({ startTimes }) {
         ref={player}
         videoId={`T0ylrqsE_jM`}
         onReady={setOpeningStartTimeOnReady}
+        iframeClassName={styles.youTubeIframe}
       />
       <Stack spacing={2} divider={<Divider orientation="vertical" flexItem />}>
         {startTimes.map((startTime) => {
